@@ -1,0 +1,2019 @@
+@font-face {
+
+    font-family: azim;
+    src: url(./fonts1/ultras.ttf);
+}
+
+@font-face {
+
+    font-family: urban;
+    src: url(./fonts1/Urban\ Storm.ttf);
+}
+
+@font-face {
+
+    font-family: bebas;
+    src: url(./fonts1/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: ms;
+    src: url(./fonts1/ms.ttf);
+}
+
+@font-face {
+
+    font-family: ms2;
+    src: url(./fonts1/ms.ttf);
+}
+
+@font-face {
+
+    font-family: badabb;
+    src: url(./fonts1/BADABB__.TTF);
+}
+
+@font-face {
+
+    font-family: storm;
+    src: url(./fonts1/Storm\ Gust.ttf);
+}
+
+@font-face {
+
+    font-family: rihan;
+    src: url(./fonts1/bbbb.ttf);
+}
+
+@font-face {
+    font-family: 'BEYNO Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BEYNO Regular'), url('fonts1/BEYNO.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BEYNO Regular2';
+    font-style: normal;
+    font-weight: normal;
+    src: local('BEYNO Regular'), url('fonts1/Action\ of\ the\ Time\ New.ttf') format('woff');
+}
+
+@font-face {
+
+    font-family: rihan3;
+    src: url(./fonts1/aaaa.ttf);
+}
+
+@font-face {
+
+    font-family: Doctor;
+    src: url(./fonts1/Doctor\ Glitch.ttf);
+}
+
+@font-face {
+
+    font-family: lato;
+    src: url(./fonts1/Lato-Italic.ttf);
+}
+
+@font-face {
+
+    font-family: go;
+    src: url(./fonts1/go3v2.ttf);
+}
+
+
+
+
+
+#banner {
+
+
+    /* background-image: url(imge/4882066.jpg);height: 600px;, */
+
+
+
+    /* background-image: url(imge/ok\ h.jpg);height: 600px; */
+    /* background-image: url(<div class="tenor-gif-embed" data-postid="22301155" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/tanjiro-wallpaper-demon-slayer-demon-slayer-gif-22301155">Tanjiro Wallpaper GIF</a>from <a href="https://tenor.com/search/tanjiro-gifs">Tanjiro GIFs</a></div> < type="text/javascript" async src="https://tenor.com/embed.js");height: 600px; */
+    background-image: url(imge/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+
+
+
+
+
+}
+
+.adam {
+
+    place-items: center;
+
+
+    border: solid gray;
+    border-radius: 100%;
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+
+
+
+}
+
+.overlay {
+
+
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 600px;
+    display: flex;
+
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+
+}
+
+/* .text { */
+position: relative;
+top: 150px;
+/* left: 400px; */
+right: 180px;
+
+
+
+text-align: center;
+text-align: end;
+color: rgb(141, 7, 7);
+/* font-size: 50px; */
+
+.relative {
+    position: relative;
+
+
+}
+
+.child {
+
+    position: absolute;
+
+    height: 400px;
+    width: 400px;
+    display: flex;
+    text-align: center;
+    top: 270px;
+    right: 380px;
+
+
+}
+
+
+
+.text2 {
+
+    font-family: BEYNO Regular2;
+}
+
+.text5 {
+
+    font-family: BEYNO Regular;
+}
+
+.parrent2 {
+
+    height: 600px;
+}
+
+.child2 img {
+
+    height: 400px;
+    width: 300px;
+}
+
+.child3 {
+
+    position: relative;
+
+}
+
+.child3 h3 {
+
+    position: absolute;
+    bottom: 365px;
+    right: 800px;
+    font-family: rihan;
+
+}
+
+.child3 h2 {
+
+    position: absolute;
+    bottom: 330px;
+    right: 660px;
+    font-family: rihan;
+
+}
+
+.child3 p {
+    position: absolute;
+    bottom: 100px;
+    /* right: 400px; */
+    left: 400px;
+    font-family: rihan3;
+    height: 200px;
+    /* width: 100px; */
+
+
+
+}
+
+.hello ul {
+
+    position: absolute;
+    bottom: 60px;
+    right: 660px;
+    font-family: rihan;
+}
+
+.hello2 ul {
+
+    position: absolute;
+    bottom: 60px;
+    right: 300px;
+    font-family: rihan;
+}
+
+.button1 button {
+
+    border: solid black;
+    display: inline;
+    border-radius: 30em;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    right: 570px;
+    font-family: BEYNO Regular;
+    font-size: 14px;
+
+
+
+}
+
+.button1 :hover {
+    background-color: black;
+    color: white;
+
+}
+
+.button2 button {
+
+    border: solid black;
+    display: inline;
+    border-radius: 30em;
+    background-color: none;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    bottom: 5px;
+    right: 450px;
+    font-family: BEYNO Regular;
+    font-size: 10px;
+
+
+}
+
+.button2 :hover {
+    background-color: black;
+    color: white;
+
+}
+
+.banner1 {
+    background-image: url(imge/img/demon-slayer-icegif-12.gif);
+    height: 500px;
+    width: 1250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    object-fit: cover;
+
+}
+
+
+.overlay2 {
+
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 500px;
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay2 p {
+
+    color: white;
+    font-family: lato;
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 23px;
+
+}
+
+.overlay2 h2 {
+    font-family: go;
+    color: white;
+
+
+
+
+
+}
+
+.overlay2 h4 {
+    font-family: Doctor;
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 20px;
+
+}
+
+.overlay3 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-family: Doctor;
+
+
+
+}
+
+.overlay h2 {
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+
+.overlay4 {
+    position: absolute;
+    top: 110px;
+    left: 80px;
+
+
+}
+
+.overlay5 {
+    position: absolute;
+    top: 180px;
+    left: 80px;
+
+
+}
+
+.overlay6 {
+    position: absolute;
+    top: 250px;
+    left: 80px;
+
+
+}
+
+.overlay7 {
+    position: absolute;
+    top: 320px;
+    left: 80px;
+
+
+}
+
+.Doctor h2 {
+    font-family: Doctor;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-family: ;
+
+}
+
+.overlay11 {
+    position: absolute;
+    top: 110px;
+    left: 500px;
+}
+
+
+
+.overlay8 {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+
+
+.overlay9 {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+
+.overlay10 {
+    position: absolute;
+    top: 320px;
+    left: 500px;
+
+
+}
+
+.parrent3 {
+
+    background-color: rgb(0, 0, 0);
+    height: 440px;
+    width: 5px;
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 1280px;
+    left: 934px;
+    transform: rotate(90Deg);
+    border-radius: 15px;
+
+
+
+
+}
+
+.parrent3child {
+
+    background-color:
+        rgb(255, 255, 255);
+    height: 90%;
+    width: 5px;
+    border-radius: 15px;
+
+
+    /* size: 50px; */
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 45px;
+    /* bottom: 2px; */
+    /* right: 2000px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* transform: rotate(90Deg); */
+}
+
+.parrent4 {
+
+    background-color: rgb(0, 0, 0);
+    height: 440px;
+    width: 5px;
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 1350px;
+    left: 934px;
+    transform: rotate(90Deg);
+    border-radius: 15px;
+
+
+
+
+}
+
+.parrent4child {
+
+    background-color:
+        rgb(255, 255, 255);
+    height: 80%;
+    width: 5px;
+    border-radius: 15px;
+    /* width: 80%; */
+
+
+    /* size: 50px; */
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 88px;
+    bottom: 2px;
+
+
+
+
+
+
+
+}
+
+.parrent5 {
+
+    background-color: rgb(0, 0, 0);
+    height: 440px;
+    width: 5px;
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 1421px;
+    left: 934px;
+    transform: rotate(90Deg);
+    border-radius: 15px;
+
+
+
+
+}
+
+.parrent5child {
+
+    background-color:
+        rgb(255, 255, 255);
+    height: 95%;
+    width: 5px;
+    border-radius: 15px;
+    /* width: 80%; */
+
+
+    /* size: 50px; */
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 5%;
+    bottom: 2px;
+
+
+
+
+
+
+
+}
+
+.parrent6 {
+
+    background-color: rgb(0, 0, 0);
+    height: 440px;
+    width: 5px;
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 1492px;
+    left: 934px;
+    transform: rotate(90Deg);
+    border-radius: 15px;
+
+
+
+
+}
+
+.parrent6child {
+
+    background-color:
+        rgb(255, 255, 255);
+    height: 85%;
+    width: 5px;
+    border-radius: 15px;
+    /* width: 80%; */
+
+
+    /* size: 50px; */
+    /* vertical-align: top;s */
+    position: absolute;
+    top: 15%;
+    bottom: 2px;
+
+
+
+
+
+
+
+}
+
+.heading2 {
+
+
+    font-family: Doctor;
+}
+
+.banner3 {
+    position: relative;
+    margin: 25px;
+}
+
+.overlay15 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+
+
+
+
+
+
+}
+
+.overlay15 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 15px;
+    font-family: BEYNO Regular;
+}
+
+.overlay16 pre {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.overlay17 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 40px;
+    left: 475px;
+    /* display: flex; */
+}
+
+.overlay17 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 9%;
+    font-family: BEYNO Regular;
+}
+
+.overlay18 p {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.overlay19 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 40px;
+    left: 850px;
+    /* display: flex; */
+}
+
+.overlay19 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: BEYNO Regular;
+    font-size: 25px;
+}
+
+.overlay20 p {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.overlay21 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 520px;
+    left: 100px;
+    /* display: flex; */
+}
+
+.overlay21 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: BEYNO Regular;
+    font-size: 25px;
+}
+
+.overlay22 p {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.overlay23 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 520px;
+    left: 475px;
+    /* display: flex; */
+}
+
+.overlay23 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: BEYNO Regular;
+    font-size: 25px;
+}
+
+.overlay24 p {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.overlay25 {
+
+    border: solid whitesmoke;
+    height: 400px;
+    width: 200px;
+    font-size: 25px;
+    overflow: hidden;
+    object-fit: cover;
+    text-align: center;
+    font-family: lato;
+    position: absolute;
+    top: 520px;
+    left: 850px;
+    /* display: flex; */
+}
+
+.overlay25 h3 {
+
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: BEYNO Regular;
+    font-size: 25px;
+}
+
+.overlay26 p {
+
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    /* top: 100px; */
+}
+
+.banner4 {
+
+
+    background-color: rgba(103, 102, 102, 0.45);
+    height: 600px;
+    width: 1250px;
+    /* display: flex; */
+    position: relative;
+    top: 1150px;
+}
+
+.overlay27 {
+    position: absolute;
+    top: 198px;
+    height: 300px;
+    width: 60px;
+    display: flex;
+    left: 50px;
+
+
+
+}
+
+.text9 h5 {
+
+    font-family: rihan;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    font-size: 25px;
+}
+
+.text9 h2 {
+
+    font-family: Doctor;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    font-size: 40px;
+}
+
+/* .overlay27 :hover{  */
+/* position: absolute; */
+
+/* top: 198px; */
+/* height: 300px; */
+/* width: 60px; */
+/* display: flex; */
+/* left: 50px; */
+/* background-color: rgba(0, 0, 0, 0.45); */
+
+
+.banner5 {
+
+    position: relative;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.div45 {
+    /* display: inline; */
+    width: 100%;
+    height: auto;
+
+
+
+
+    /* opacity: 0; */
+}
+
+.div45 {
+    position: absolute;
+    top: 1300px;
+    /* transition: 1s ease; */
+    /* background-color: #008cba; */
+    /* -webkit-background-clip: border-box; */
+}
+
+.imgtext1 {
+
+    position: absolute;
+    top: 198px;
+    left: 50px;
+    color: rgb(255, 0, 0);
+    font-family: storm;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+
+
+}
+
+.imgtext1:hover {
+    opacity: 1;
+}
+
+.imgtext1 h4 {
+    position: absolute;
+    top: 80px;
+    left: 29px;
+    font-size: 25px;
+    word-spacing: 5px;
+}
+
+.imgtext1 h3 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    font-size: 30px;
+
+}
+
+.overlay28 img {
+    position: absolute;
+    top: 198px;
+    left: 475px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+
+}
+
+.imgtext2 {
+
+    position: absolute;
+    top: 198px;
+    left: 475px;
+    color: rgb(255, 0, 0);
+    font-family: storm;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext2:hover {
+    opacity: 1;
+
+}
+
+.imgtext2 h4 {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    font-size: 25px;
+    word-spacing: 5px;
+
+}
+
+.imgtext2 h3 {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+    font-size: 30px;
+
+}
+
+.overlay29 img {
+    position: absolute;
+    top: 198px;
+    left: 900px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext3 {
+
+    position: absolute;
+    top: 198px;
+    left: 900px;
+    color: rgb(255, 0, 0);
+    font-family: storm;
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext3:hover {
+    opacity: 1;
+
+}
+
+.imgtext3 h4 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+
+}
+
+.imgtext3 h3 {
+    position: absolute;
+    top: 20px;
+    left: 59px;
+    font-size: 30px;
+}
+
+.banner5 {
+    position: relative;
+}
+
+.heading3 h4 {
+    /* font-family: Doctor; */
+    position: absolute;
+    top: 1180px;
+    left: 45px;
+    font-family: rihan;
+    font-size: 25px;
+    letter-spacing: 8px;
+
+
+}
+
+.heading3 h2 {
+    font-family: Doctor;
+    position: absolute;
+    top: 1240px;
+    left: 45px;
+    font-size: 25px;
+
+}
+
+.img5 img {
+
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext4 {
+
+    position: absolute;
+    top: 1350px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext4:hover {
+    opacity: 1;
+}
+
+.imgtext4 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 52px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+
+.imgtext4 h3 {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img6 img {
+
+    position: absolute;
+    top: 1350px;
+    left: 480px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext5 {
+
+    position: absolute;
+    top: 1350px;
+    left: 480px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext5:hover {
+    opacity: 1;
+}
+
+.imgtext5 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+.imgtext5 h3 {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img7 img {
+
+    position: absolute;
+    top: 1350px;
+    left: 900px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext6 {
+
+    position: absolute;
+    top: 1350px;
+    left: 900px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext6:hover {
+    opacity: 1;
+}
+
+.imgtext6 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+.imgtext6 h3 {
+    position: absolute;
+    top: 10px;
+    left: 99px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img8 img {
+
+    position: absolute;
+    top: 1730px;
+    left: 50px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+    rotate: 90deg;
+}
+
+.imgtext7 {
+
+    position: absolute;
+    top: 1730px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext7:hover {
+    opacity: 1;
+}
+
+.imgtext7 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+.imgtext7 h3 {
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img9 img {
+
+    position: absolute;
+    top: 1730px;
+    left: 480px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext8 {
+
+    position: absolute;
+    top: 1730px;
+    left: 480px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext8:hover {
+    opacity: 1;
+}
+
+.imgtext8 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 55px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+.imgtext8 h3 {
+    position: absolute;
+    top: 10px;
+    left: 95px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.img10 img {
+
+    position: absolute;
+    top: 1730px;
+    left: 900px;
+    /* transition: 1s ease; */
+    height: 300px;
+    width: 300px;
+}
+
+.imgtext9 {
+
+    position: absolute;
+    top: 1730px;
+    left: 900px;
+    color: rgb(255, 255, 255);
+    font-family: badabb;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.imgtext9:hover {
+    opacity: 1;
+}
+
+.imgtext9 h5 {
+    position: absolute;
+    top: 80px;
+    left: 85px;
+    font-size: 25px;
+    word-spacing: 5px;
+    position: absolute;
+    top: 90px;
+    left: 29px;
+    font-family: rihan;
+    font-size: 15px;
+    letter-spacing: 8px;
+    color: yellowgreen;
+}
+
+.imgtext9 h3 {
+    position: absolute;
+    top: 10px;
+    left: 112px;
+    font-size: 45px;
+    background: linear-gradient(to right, yellow, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner6 {
+
+    background-color: rgba(103, 102, 102, 0.45);
+    height: 800px;
+    width: 1250px;
+    flex-flow: wrap;
+
+
+
+    position: relative;
+    top: 2100px;
+    left: 0px;
+}
+
+.heading5 h5 {
+    position: absolute;
+    top: 40px;
+    left: 47px;
+    font-family: rihan;
+    font-size: 20px;
+    letter-spacing: 15px;
+    ;
+}
+
+.heading5 h2 {
+    font-family: Doctor;
+    position: absolute;
+    top: 80px;
+    left: 47px;
+
+    font-size: 25px;
+}
+
+/* .overlay31 img{
+                height: 150px;
+                width: 250px;
+                position: absolute;
+                top: 190px;
+                left: 47px;
+                transition: 1s ease;
+                display: flex;
+                
+                
+            
+
+            }
+            .overlay31:hover img{
+
+                /* height: 160px; */
+/* width: 260px; */
+transform: scale(1.1, 1.1);
+}
+
+/* .heading7{ */
+position: absolute;
+top: 100px;
+
+
+background-color:rgba(255, 255, 255, 0.95);
+height: 300px;
+width: 250px;
+position: absolute;
+top: 340px;
+left: 47px;
+/* text-align: center; */
+justify-content: flex-start;
+align-items: center;
+}
+
+/* .heading7 h5{ */
+position: absolute;
+top: 1px;
+left: 25px;
+font-family: rihan;
+font-size: 20px;
+letter-spacing: 5px;
+}
+
+/* .heading7 h3{ */
+
+position: absolute;
+top: 40px;
+left: 25px;
+font-family: go;
+
+}
+
+/* .heading7 span{ */
+
+position: absolute;
+top: 100px;
+left: 2px;
+font-size: 20px;
+font-family: rihan;
+text-align: center;
+font-size: 20px;
+}
+
+/* .parrent40{ */
+display: flex;
+
+/* border: 2px solid black; */
+/* height: 450px; */
+/* width: 250px; */
+/* position: absolute; */
+/* top: 190px; */
+/* left: 47px; */
+
+}
+
+/* .overlay31 { */
+border: 2px solid black;
+height: 250px;
+width: 250px;
+align-items: center;
+justify-content: center;
+display: flex;
+po
+}
+
+*/ .papprets-div {
+    display: flex;
+    border: 2px solid black;
+    /* height: 250px; */
+    /* width: 25px; */
+    /* justify-content: center; */
+}
+
+.overlay3 {
+    border: 2px solid rgb(0, 0, 0);
+    /* display: flex; */
+    /* height: 250px; */
+    /* width: 300px; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+
+
+}
+
+.parrent40 {
+    display: flex;
+
+    justify-content: space-around;
+    overflow: hidden;
+    position: relative;
+    top: 1500px;
+    gap: 50px;
+    flex-flow: wrap;
+}
+
+.overlay31 {
+
+    border: 2px solid black;
+    width: 260px;
+
+    /* display: flex; */
+    justify-content: center;
+    overflow: hidden;
+    /* position: absolute; */
+    /* top: 1100px;  */
+    height: 500px;
+    background-color: white;
+
+
+
+
+
+}
+
+.overlay31 img {
+
+    height: 250px;
+    position: relative;
+    right: 100px;
+
+    /* overflow: hidden; */
+    transition: 1s ease;
+
+}
+
+.overlay31:hover img {
+
+    transform: scale(1.1, 1.1);
+}
+
+.heading7 h5 {
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+
+    font-family: rihan;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.heading7 h3 {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-family: go;
+
+}
+
+.heading7 span {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-size: 25px;
+    font-family: rihan;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.overlay32 {
+
+    border: 2px solid black;
+    width: 260px;
+
+    /* display: flex; */
+    justify-content: center;
+    overflow: hidden;
+    /* position: absolute; */
+    /* top: 1100px;  */
+    height: 500px;
+    background-color: white;
+
+
+
+
+
+}
+
+.overlay32 img {
+
+    height: 260px;
+    width: 260px;
+    /* position: relative; */
+    /* right: 40px;  */
+
+
+
+    /* overflow: hidden; */
+    transition: 1s ease;
+    rotate: 270Deg;
+    /* object-fit: cover; */
+
+}
+
+.overlay32:hover img {
+
+    transform: scale(1.1, 1.1);
+}
+
+.heading8 h5 {
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+
+    font-family: rihan;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.heading8 h3 {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-family: go;
+
+}
+
+.heading8 span {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-size: 25px;
+    font-family: rihan;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.overlay33 {
+
+    border: 2px solid black;
+    width: 260px;
+
+    /* display: flex; */
+    justify-content: center;
+    overflow: hidden;
+    /* position: absolute; */
+    /* top: 1100px;  */
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+
+
+
+
+
+}
+
+.overlay33 img {
+
+    height: 250px;
+    width: 260px;
+    /* position: relative; */
+
+
+
+    /* overflow: hidden; */
+    transition: 1s ease;
+
+}
+
+.overlay33:hover img {
+
+    transform: scale(1.1, 1.1);
+}
+
+.heading9 h5 {
+    position: relative;
+    bottom: 20px;
+    left: 4px;
+
+    font-family: rihan;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.heading9 h3 {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-family: go;
+
+}
+
+.heading9 span {
+
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    font-size: 25px;
+    font-family: rihan;
+    text-align: center;
+    justify-content: center;
+    font-size: 21px;
+}
+
+.bg1 {
+
+    background-image: url(imge/GIFS/222855.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+
+    flex-flow: wrap;
+    position: relative;
+    top: 46.3px;
+    /* right: 50px; */
+    width: 1250px;
+    margin-right: 14px;
+
+
+
+
+
+
+    /* position: relative; */
+    /* top:70px */
+
+}
+
+.parrent-form {
+
+    display: flex;
+    flex-wrap: ;
+    margin: 90px;
+    90px,
+    0px,
+    0px;
+    position: relative;
+
+
+
+
+}
+
+.child-form h2 {
+
+    color: white;
+    font-size: 40px;
+    font-family: Doctor;
+    -webkit-text-stroke-color: rgb(245, 230, 230);
+    -webkit-text-stroke-width: 1px;
+    background: linear-gradient(to right, rgb(63, 58, 58), rgb(255, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+
+
+}
+
+.child-form {
+    position: absolute;
+    right: 0px;
+}
+
+.child-form input {
+    background: transparent;
+    color: white;
+    font-size: 18px;
+
+
+
+
+
+    /* justify-content: space-around; */
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 189px;
+
+    /* gap: 100px; */
+    padding-bottom: 14px;
+    margin-bottom: 50px;
+    /* line-height: 32px; */
+    margin-right: 50px;
+    outline: none;
+
+
+
+
+
+
+}
+
+.child-form input:hover {
+    border-bottom: 1px solid rgb(255, 4, 4);
+
+
+}
+
+.child-form  button{
+
+    border-radius: 30rem;
+    height: 50px;
+    width: 150px;
+    background-image: url(imge/GIFS/_\ \(1\).gif);
+    object-fit: cover;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: go;
+    font-size: 19px;
+    /* -webkit-text-stroke: 5px solid  ; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    /* background: linear-gradient(to right white,red;) */
+    /* -webkit-text-fill-color: transparent; */
+    /* -webkit-background-clip: text; */
+
+
+}
+
+.child-form textarea {
+
+    height: 150px;
+    width: 50%;
+    box-sizing: border-box;
+    /* border-radius: 4px; */
+    /* resize: none; */
+    font-size: 16px;
+
+    background: transparent;
+    outline: none;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: lato;
+    transition: 0.5s ease;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+
+
+
+}
+
+/* .child-form textarea:hover{ */
+background-color: black;
+
+/* } */
+
+
+
+/* .child-form p{  */
+/* background: linear-gradient(to right white,red;) */
+/* -webkit-text-fill-color: transparent; */
+/* -webkit-background-clip: text; */
+/* -webkit-text-stroke: 5px solid black; */
+
+
+/* } */
+
+
+
+.child-text3 pre {
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+.child-text3 pre {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: rihan;
+    letter-spacing: 1px;
+    position: relative;
+    right: 155px;
+    top: 60px;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 1px;
+
+
+}
+
+.child-text3 h5 {
+
+    color: #ffffff;
+    font-family: rihan;
+    font-size: 25px;
+    letter-spacing: 18px;
+    /* text-shadow: #ffffff 10px; */
+}
+
+.child-text3 h2 {
+
+    color: #000000;
+    font-family: Doctor;
+    font-size: 40px;
+    -webkit-text-stroke: #ffffff 1px;
+    position: absolute;
+    top: 45px;
+}
+
+.child-text3 h4 {
+
+    color: white;
+    position: absolute;
+    top: 120px;
+    font-family: ms;
+    background: linear-gradient(to right, rgb(255, 4, 247), rgb(255, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #ffffff 1px;
+    font-size: 25px;
+}
+.parent-footer{
+    /* display: flex;≈ */
+
+    
+}
+.banner7{
+
+    background-color: gray;
+    height: 200px;
+    width: 1250px;
+    position: relative;
+    bottom: 3px;
+    right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.banner7 h3{
+    position: absolute;
+    left: 250px;
+    /* top: 0px; */
+    font-family: rihan;
+    font-size: 25px;
+    
+    
+}
+.banner7 h2{
+    position: absolute;
+    
+    top: 10px;
+    font-family: urban;
+    font-size: 40px;
+}
+.banner7 h4{
+    letter-spacing: 15px;
+    font-family: rihan;
+    font-size: 28px;
+    position: absolute;
+    right: 528px;
+    top: 59px;
+}
+.banner7 img{
+    
+    
+    position: relative;
+    left: 350px;
+}
