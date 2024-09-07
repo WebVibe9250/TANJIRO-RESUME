@@ -105,6 +105,7 @@
     height: 600px;
     width: 100%;
     object-fit: cover;
+    display: block;
 
 
 
@@ -2062,6 +2063,7 @@ background-color: black;
 }
 
 .parent-footer {
+    display: block;
     /* display: flex;≈ */
 
 
