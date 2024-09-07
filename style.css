@@ -83,6 +83,13 @@
     font-family: go;
     src: url(./fonts1/go3v2.ttf);
 }
+*{  margin: 0%;  
+    padding: 0%;
+    box-sizing: border-box;}
+    body{
+        
+        overflow-x: hidden;
+    }
 
 
 
@@ -91,21 +98,18 @@
 .parent9 {
 
 
-    /* background-image: url(imge/4882066.jpg);height: 600px;, */
+ 
 
-
-
-    /* background-image: url(imge/ok\ h.jpg);height: 600px; */
-    /* background-image: url(<div class="tenor-gif-embed" data-postid="22301155" data-share-method="host" data-aspect-ratio="1.77778" data-width="100%"><a href="https://tenor.com/view/tanjiro-wallpaper-demon-slayer-demon-slayer-gif-22301155">Tanjiro Wallpaper GIF</a>from <a href="https://tenor.com/search/tanjiro-gifs">Tanjiro GIFs</a></div> < type="text/javascript" async src="https://tenor.com/embed.js");height: 600px; */
     background-image: url(imge/bg.gif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    height: auto;
+    height: 600px;
     width: 100%;
+    
     object-fit: cover;
-    display: block;
+    /* display: block; */
 
 
 
