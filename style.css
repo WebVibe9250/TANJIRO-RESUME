@@ -83,9 +83,9 @@
     font-family: go;
     src: url(./fonts1/go3v2.ttf);
 }
-*{  margin: 0%;  
+/* *{  margin: 0%;  
     padding: 0%;
-    box-sizing: border-box;}
+    box-sizing: border-box;} */
     body{
         
         overflow-x: hidden;
