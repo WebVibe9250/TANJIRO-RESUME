@@ -88,7 +88,7 @@
 
 
 
-#banner {
+.parent9 {
 
 
     /* background-image: url(imge/4882066.jpg);height: 600px;, */
@@ -103,11 +103,19 @@
     background-size: cover;
     overflow: hidden;
     height: 600px;
+    width: 1250px;
+    object-fit: cover;
 
 
 
 
 
+}
+.parent9{
+    justify-content: center;
+    position: relative;
+    
+    
 }
 
 .adam {
@@ -123,6 +131,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
+    
 
 
 
@@ -137,11 +148,15 @@
 
     background-color: rgba(0, 0, 0, 0.45);
     height: 600px;
+    width: 1250px;
     display: flex;
 
     justify-content: center;
-    height: inherit;
+    /* height: inherit; */
     align-items: center;
+    position: absolute;
+    top: 0px;
+    
 
 }
 
