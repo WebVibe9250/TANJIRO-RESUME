@@ -102,8 +102,8 @@
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    height: 600px;
-    max-width: 100%;
+    height: auto;
+    width: 100%;
     object-fit: cover;
     display: block;
 
