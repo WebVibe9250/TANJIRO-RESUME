@@ -103,7 +103,7 @@
     background-size: cover;
     overflow: hidden;
     height: 600px;
-    width: 1250px;
+    width: 100%;
     object-fit: cover;
 
 
@@ -111,11 +111,12 @@
 
 
 }
-.parent9{
+
+.parent9 {
     justify-content: center;
     position: relative;
-    
-    
+
+
 }
 
 .adam {
@@ -131,9 +132,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
-    
+
+
+
 
 
 
@@ -148,7 +149,7 @@
 
     background-color: rgba(0, 0, 0, 0.45);
     height: 600px;
-    width: 1250px;
+    width: 100%;
     display: flex;
 
     justify-content: center;
@@ -156,7 +157,7 @@
     align-items: center;
     position: absolute;
     top: 0px;
-    
+
 
 }
 
@@ -207,24 +208,27 @@ color: rgb(141, 7, 7);
 
 
 
-.parent10{
+.parent10 {
     display: flex;
     gap: 70px;
-    width: 1250px;
+    width: 100%;
 
 }
-.child2 img{
+
+.child2 img {
     height: 400px;
     width: 300px;
 }
-.parent11{
-    
+
+.parent11 {
+
     display: flex;
     gap: 100px;
     position: relative;
     bottom: 200px;
     left: 400px;
-    flex-flow: wrap;
+    width: 100%;
+    /* flex-flow: wrap; */
 }
 
 
@@ -235,58 +239,58 @@ color: rgb(141, 7, 7);
 
     font-family: rihan;
     letter-spacing: 5px;
-   
+
 
 }
 
 .child3 h2 {
 
-    
+
     font-family: Doctor;
 
 }
 
-.child3 p {
-   
-  
+.child3 pre {
+
+
     font-family: lato;
     font-size: 20px;
     -webkit-text-stroke: #000000;
-    
+
 
 
 
 }
 
 
-.button-parent{
+.button-parent {
 
     display: flex;
     gap: 60px;
-    width: 1250px;
+    width: 100%;
     /* position: relative; */
     /* bottom: 185px; */
     /* left: 550px; */
 }
 
 
-.button-parent{
+.button-parent {
 
     display: flex;
     gap: 60px;
     position: relative;
     /* bottom: 185px; */
     /* left: 550px; */
-    flex-flow: wrap;
-    
+    /* flex-flow: wrap; */
+
 
 
 }
 
-.button1 button{
+.button1 button {
 
     border: solid black;
-    
+
     border-radius: 30em;
     background-color: none;
     color: rgb(0, 0, 0);
@@ -294,14 +298,14 @@ color: rgb(141, 7, 7);
     width: 100px;
     position: absolute;
     bottom: 140px;
-    
+
     left: 600px;
     font-family: BEYNO Regular;
     font-size: 14px;
 
 
 
-    
+
 
 }
 
@@ -340,43 +344,75 @@ color: rgb(141, 7, 7);
 
 
 
-.banner1 {
+.banner1 {}
+
+
+.parent-progess-bar {
+
     background-image: url(imge/img/demon-slayer-icegif-12.gif);
     height: 500px;
-    width: 1250px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    align-items: center;
+    /* align-items: center; */
     display: flex;
     object-fit: cover;
-
-}
-
-
-.overlay2 {
-
-    background-color: rgba(0, 0, 0, 0.45);
-    height: 500px;
-    width: 1250px;
-    display: flex;
-    align-items: center;
-    background-size: cover;
     position: relative;
 }
 
-.overlay2 p {
+.overlay50 {
 
-    color: white;
-    font-family: lato;
+    background-color: rgba(0, 0, 0, 0.45);
+    height: 500px;
+    width: 100%;
+
     display: flex;
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    font-size: 23px;
+    background-size: cover;
 
 }
 
-.overlay2 h2 {
+.overlay50 pre {
+
+    color: white;
+    font-family: lato;
+
+    /* position: absolute; */
+    /* top: 100px; */
+    /* left: 20px; */
+    font-size: 25px;
+    text-align: left;
+    position: relative;
+    right: 50px;
+
+
+}
+
+.overlay2 {
+
+    display: flex;
+}
+
+.overlay50 h2 {
+    color: #ffffff;
+    font-family: Doctor;
+    margin-left: 35px;
+    -webkit-text-stroke: red 1px;
+    font-size: 45px;
+}
+
+.overlay50 h3 {
+    font-family: rihan;
+    letter-spacing: 15px;
+    color: rgb(191, 255, 0);
+    -webkit-text-stroke: yellowgreen;
+    margin-left: 45px;
+    position: relative;
+    top: 30px;
+
+
+}
+
+/* .overlay2 h2 {
     font-family: go;
     color: white;
 
@@ -482,24 +518,28 @@ color: rgb(141, 7, 7);
     left: 500px;
 
 
-}
+} */
 
-.parrent3 {
+/* .parrent3 {
 
     background-color: rgb(0, 0, 0);
     height: 440px;
     width: 5px;
     /* vertical-align: top;s */
-    position: absolute;
-    top: 1202px;
-    left: 934px;
-    transform: rotate(90Deg);
-    border-radius: 15px;
+position: absolute;
+top: 1202px;
+left: 934px;
+transform: rotate(90Deg);
+border-radius: 15px;
 
 
 
 
-}
+/* } */
+
+
+
+
 
 .parrent3child {
 
@@ -521,138 +561,152 @@ color: rgb(141, 7, 7);
     /* transform: rotate(90Deg); */
 }
 
-.parrent4 {
+*/ .progess-bar-parent {
+    display: flex;
 
-    background-color: rgb(0, 0, 0);
-    height: 440px;
-    width: 5px;
-    /* vertical-align: top;s */
+    height: 600px;
+    width: 600px;
+    position: relative;
+    /* justify-content: right; */
+
+}
+
+.parrent3 {
+    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 40%;
+    border-radius: 15em;
+    /* display: flex; */
     position: absolute;
-    top: 1275px;
-    left: 934px;
-    transform: rotate(90Deg);
-    border-radius: 15px;
+    top: 150px;
+    left: 700px;
+
+}
+
+.parrent3child {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 90%;
+    border-radius: 15em;
+
+}
+
+.progess-bar-parent {
+    gap: 90px;
+    font-size: 15px;
+    font-family: urban;
+}
+
+.progess-bar-parent p {
+
+    position: relative;
+    top: 63px;
+    left: 545px;
+    color: #ffffff;
+}
+
+.progess-bar-parent h4 {
+
+    position: relative;
+    top: 100px;
+    left: 75px;
+    color: white;
+}
 
 
+.progess-bar-parent .parrent4 {
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 40%;
+    border-radius: 15em;
+    position: absolute;
+    /* bottom: 50px; */
+    top: 230px;
+    left: 700px;
+
+}
+
+.progess-bar-parent .parrent4child {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 80%;
+    border-radius: 15em;
 
 
 }
 
-.parrent4child {
-
-    background-color:
-        rgb(255, 255, 255);
-    height: 80%;
-    width: 5px;
-    border-radius: 15px;
-    /* width: 80%; */
-
-
-    /* size: 50px; */
-    /* vertical-align: top;s */
+.progess-bar-parent .parrent5 {
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 40%;
+    border-radius: 15em;
     position: absolute;
-    top: 88px;
-    bottom: 2px;
+    /* bottom: 50px; */
+    top: 309px;
+    left: 700px;
 
+}
 
-
-
-
+.progess-bar-parent .parrent5child {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 95%;
+    border-radius: 15em;
 
 
 }
 
-.parrent5 {
-
-    background-color: rgb(0, 0, 0);
-    height: 440px;
-    width: 5px;
-    /* vertical-align: top;s */
+.progess-bar-parent .parrent6 {
+    background-color: rgb(255, 0, 0);
+    height: 5px;
+    width: 40%;
+    border-radius: 15em;
     position: absolute;
-    top: 1345px;
-    left: 934px;
-    transform: rotate(90Deg);
-    border-radius: 15px;
+    /* bottom: 50px; */
+    top: 386px;
+    left: 700px;
 
+}
 
+.progess-bar-parent .parrent6child {
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    width: 85%;
+    border-radius: 15em;
 
 
 }
 
-.parrent5child {
-
-    background-color:
-        rgb(255, 255, 255);
-    height: 95%;
-    width: 5px;
-    border-radius: 15px;
-    /* width: 80%; */
-
-
-    /* size: 50px; */
-    /* vertical-align: top;s */
-    position: absolute;
-    top: 5%;
-    bottom: 2px;
 
 
 
 
 
-
-
-}
-
-.parrent6 {
-
-    background-color: rgb(0, 0, 0);
-    height: 440px;
-    width: 5px;
-    /* vertical-align: top;s */
-    position: absolute;
-    top: 1415px;
-    left: 934px;
-    transform: rotate(90Deg);
-    border-radius: 15px;
-
-
-
-
-}
-
-.parrent6child {
-
-    background-color:
-        rgb(255, 255, 255);
-    height: 85%;
-    width: 5px;
-    border-radius: 15px;
-    /* width: 80%; */
-
-
-    /* size: 50px; */
-    /* vertical-align: top;s */
-    position: absolute;
-    top: 15%;
-    bottom: 2px;
-
-
-
-
-
-
-
-}
 
 .heading2 {
 
 
     font-family: Doctor;
+    font-size: 25px;
+    margin-left: 10px;
+    -webkit-text-stroke: #000000 1px;
+    background: linear-gradient(rgb(36, 12, 253), rgb(255, 0, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
+/* 
 .banner3 {
     position: relative;
     margin: 25px;
+    
+    width: 100%;
+} */
+.overlay-contenar {
+    width: 100%;
+    position: relative;
+
 }
 
 .overlay15 {
@@ -861,10 +915,11 @@ color: rgb(141, 7, 7);
 
     background-color: rgba(103, 102, 102, 0.45);
     height: 600px;
-    width: 1250px;
-    /* display: flex; */
+    width: 100%;
+    display: flex;
     position: relative;
     top: 1150px;
+    flex-flow: wrap;
 }
 
 .overlay27 {
@@ -1445,7 +1500,7 @@ color: rgb(141, 7, 7);
 
     background-color: rgba(103, 102, 102, 0.45);
     height: 800px;
-    width: 1250px;
+    width: 200%;
     flex-flow: wrap;
 
 
@@ -1804,11 +1859,11 @@ po
     background-size: cover;
     /* background-size: contain; */
 
-    flex-flow: wrap;
+
     position: relative;
     top: 46.3px;
     /* right: 50px; */
-    width: 1250px;
+    width: 200%;
     margin-right: 14px;
 
 
@@ -1824,7 +1879,7 @@ po
 .parrent-form {
 
     display: flex;
-    flex-wrap: ;
+
     margin: 90px;
     90px,
     0px,
@@ -1891,7 +1946,7 @@ po
 
 }
 
-.child-form  button{
+.child-form button {
 
     border-radius: 30rem;
     height: 50px;
@@ -2005,42 +2060,47 @@ background-color: black;
     -webkit-text-stroke: #ffffff 1px;
     font-size: 25px;
 }
-.parent-footer{
+
+.parent-footer {
     /* display: flex;≈ */
 
-    
+
 }
-.banner7{
+
+.banner7 {
 
     background-color: gray;
     height: 200px;
-    width: 1250px;
+    width: 200%;
     position: relative;
     bottom: 3px;
     right: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
-.banner7 h3{
+
+.banner7 h3 {
     position: absolute;
     left: 250px;
     /* top: 0px; */
     font-family: rihan;
     font-size: 25px;
-    
-    
+
+
 }
-.banner7 h2{
+
+.banner7 h2 {
     position: absolute;
-    
+
     top: 10px;
     font-family: urban;
     font-size: 40px;
 }
-.banner7 h4{
+
+.banner7 h4 {
     letter-spacing: 15px;
     font-family: rihan;
     font-size: 28px;
@@ -2048,9 +2108,10 @@ background-color: black;
     right: 528px;
     top: 59px;
 }
-.banner7 img{
-    
-    
+
+.banner7 img {
+
+
     position: relative;
     left: 350px;
 }
