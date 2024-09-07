@@ -205,92 +205,112 @@ color: rgb(141, 7, 7);
     font-family: BEYNO Regular;
 }
 
-.parrent2 {
 
-    height: 600px;
+
+.parent10{
+    display: flex;
+    gap: 70px;
+    width: 1250px;
+
 }
-
-.child2 img {
-
+.child2 img{
     height: 400px;
     width: 300px;
 }
-
-.child3 {
-
+.parent11{
+    
+    display: flex;
+    gap: 100px;
     position: relative;
-
+    bottom: 200px;
+    left: 400px;
+    flex-flow: wrap;
 }
+
+
+
+
 
 .child3 h3 {
 
-    position: absolute;
-    bottom: 365px;
-    right: 800px;
     font-family: rihan;
+    letter-spacing: 5px;
+   
 
 }
 
 .child3 h2 {
 
-    position: absolute;
-    bottom: 330px;
-    right: 660px;
-    font-family: rihan;
+    
+    font-family: Doctor;
 
 }
 
 .child3 p {
-    position: absolute;
-    bottom: 100px;
-    /* right: 400px; */
-    left: 400px;
-    font-family: rihan3;
-    height: 200px;
-    /* width: 100px; */
+   
+  
+    font-family: lato;
+    font-size: 20px;
+    -webkit-text-stroke: #000000;
+    
 
 
 
 }
 
-.hello ul {
 
-    position: absolute;
-    bottom: 60px;
-    right: 660px;
-    font-family: rihan;
+.button-parent{
+
+    display: flex;
+    gap: 60px;
+    width: 1250px;
+    /* position: relative; */
+    /* bottom: 185px; */
+    /* left: 550px; */
 }
 
-.hello2 ul {
 
-    position: absolute;
-    bottom: 60px;
-    right: 300px;
-    font-family: rihan;
+.button-parent{
+
+    display: flex;
+    gap: 60px;
+    position: relative;
+    /* bottom: 185px; */
+    /* left: 550px; */
+    flex-flow: wrap;
+    
+
+
 }
 
-.button1 button {
+.button1 button{
 
     border: solid black;
-    display: inline;
+    
     border-radius: 30em;
     background-color: none;
     color: rgb(0, 0, 0);
     height: 50px;
     width: 100px;
     position: absolute;
-    bottom: 5px;
-    right: 570px;
+    bottom: 140px;
+    
+    left: 600px;
     font-family: BEYNO Regular;
     font-size: 14px;
 
 
 
+    
+
 }
 
 .button1 :hover {
     background-color: black;
+    overflow: hidden;
     color: white;
+
+
 
 }
 
@@ -304,8 +324,8 @@ color: rgb(141, 7, 7);
     height: 50px;
     width: 100px;
     position: absolute;
-    bottom: 5px;
-    right: 450px;
+    bottom: 140px;
+    right: 400px;
     font-family: BEYNO Regular;
     font-size: 10px;
 
@@ -317,6 +337,8 @@ color: rgb(141, 7, 7);
     color: white;
 
 }
+
+
 
 .banner1 {
     background-image: url(imge/img/demon-slayer-icegif-12.gif);
@@ -469,7 +491,7 @@ color: rgb(141, 7, 7);
     width: 5px;
     /* vertical-align: top;s */
     position: absolute;
-    top: 1280px;
+    top: 1202px;
     left: 934px;
     transform: rotate(90Deg);
     border-radius: 15px;
@@ -506,7 +528,7 @@ color: rgb(141, 7, 7);
     width: 5px;
     /* vertical-align: top;s */
     position: absolute;
-    top: 1350px;
+    top: 1275px;
     left: 934px;
     transform: rotate(90Deg);
     border-radius: 15px;
@@ -547,7 +569,7 @@ color: rgb(141, 7, 7);
     width: 5px;
     /* vertical-align: top;s */
     position: absolute;
-    top: 1421px;
+    top: 1345px;
     left: 934px;
     transform: rotate(90Deg);
     border-radius: 15px;
@@ -588,7 +610,7 @@ color: rgb(141, 7, 7);
     width: 5px;
     /* vertical-align: top;s */
     position: absolute;
-    top: 1492px;
+    top: 1415px;
     left: 934px;
     transform: rotate(90Deg);
     border-radius: 15px;
