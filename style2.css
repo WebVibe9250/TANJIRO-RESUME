@@ -1,0 +1,56 @@
+
+
+@media screen and (max-width: 600px){
+
+
+    .parent9{
+
+        width: 600px;
+        height: 1000px;
+    }
+    .adam{
+
+    justify-content: center;
+    display: flex;
+
+    }
+    .overlay{
+        height: 1000px;
+
+    }
+    .child{
+        position: absolute;
+        right: 49px;
+        top: 450px;
+    }
+    .text6 h4{
+        text-align: center;
+        font-size: 15px;
+
+    }
+    .text6 h2{
+        text-align: center;
+        font-size: 25px;
+    }
+    .parent10{
+        flex-direction: column;
+    }
+    .child2 img{
+        
+        object-fit: contain;
+        height: auto;
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+        /* position: relative; */
+        /* left: 50%; */
+        /* right: 50%; */
+        /* transform: (-50% -50%); */
+    
+        
+    }
+    
+
+
+}
+    
