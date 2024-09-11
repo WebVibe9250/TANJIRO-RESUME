@@ -108,7 +108,7 @@
     background-size: cover;
     overflow: hidden;
     height: 600px;
-    width: 100%;
+    width: 100vw;
     
     object-fit: cover;
 
@@ -156,7 +156,7 @@
 
     background-color: rgba(0, 0, 0, 0.45);
     height: 600px;
-    width: 100%;
+    width: 100vw;
     display: flex;
 
     justify-content: center;
