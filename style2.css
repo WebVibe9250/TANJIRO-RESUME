@@ -6,7 +6,7 @@
     .parent9{
 
         width: 100%;
-        height: 800px;
+        height: 600px;
         background-position: center;
         justify-content: center;
     }
@@ -17,14 +17,14 @@
 
     }
     .overlay{
-        height: 800px;
+        height: 600px;
 
     }
     .child{
              justify-content: center;
              position: absolute;
-             top: 350px;
-             left: 10px;
+             top: 250px;
+             left: 0px;
     }
     .text6 h4{
         text-align: center;
