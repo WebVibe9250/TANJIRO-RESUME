@@ -41,10 +41,12 @@
     .child2 img{
         
         object-fit: contain;
-        height: auto;
+        display: content;
+        height: 200px;
         width: 400px;
         display: block;
-        margin: 0 auto;
+
+        
       
     }
 
@@ -56,6 +58,32 @@
         
         
         overflow-x: hidden;
+    }
+    .child3{
+        text-align: center;
+    }
+    .child3 p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .parent11{
+        flex-direction: column;
+        gap: 0px;
+        position: relative;
+        left: 0px;
+        bottom: 30px;
+        font-size: 15px;
+    }
+    .button2 button{
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .button1 button{
+        position: relative;
+        top: 0px;
+        left: 15px;
+        margin-bottom: 5px;
     }
     
 
