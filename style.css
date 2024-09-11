@@ -249,7 +249,7 @@ color: rgb(141, 7, 7);}
 
 }
 
-.child3 pre {
+.child3 p {
 
 
     font-family: lato;
@@ -1551,7 +1551,7 @@ color: rgb(141, 7, 7);}
 .parrent-form {
 
     display: flex;
-     margin: 90px;
+ margin: 90px;
     position: relative;
 
 
@@ -1745,3 +1745,4 @@ color: rgb(141, 7, 7);}
     position: relative;
     left: 350px;
 }
+
