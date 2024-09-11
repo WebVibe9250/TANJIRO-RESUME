@@ -40,11 +40,12 @@
     }
     .child2 img{
         
-        object-fit: contain;
-        display: content;
-        height: 200px;
+        /* object-fit: contain; */
+        /* display: content; */
+        height: 400px;
         width: 400px;
-        display: block;
+        /* display: block; */
+        margin-left: 7px;
 
         
       
@@ -64,7 +65,7 @@
     }
     .child3 p{
         text-align: center;
-        font-size: 25px;
+        /* font-size: 25px; */
     }
     .parent11{
         flex-direction: column;
