@@ -108,7 +108,7 @@
     background-size: cover;
     overflow: hidden;
     height: 600px;
-    width: 100vw;
+    width: 150%;
     
     object-fit: cover;
 
