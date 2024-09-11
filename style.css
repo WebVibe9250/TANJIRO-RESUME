@@ -83,9 +83,7 @@
     font-family: go;
     src: url(./fonts1/go3v2.ttf);
 }
-/* *{  margin: 0%;  
-    padding: 0%;
-    box-sizing: border-box;} */
+
     body{
         width: 100%;
         height: 100%;
@@ -114,7 +112,7 @@
     width: 100%;
     
     object-fit: cover;
-    /* display: block; */
+
 
 
 
@@ -163,7 +161,7 @@
     display: flex;
 
     justify-content: center;
-    /* height: inherit; */
+
     align-items: center;
     position: absolute;
     top: 0px;
@@ -172,17 +170,8 @@
 }
 
 /* .text { */
-position: relative;
-top: 150px;
-/* left: 400px; */
-right: 180px;
+color: rgb(141, 7, 7);} 
 
-
-
-text-align: center;
-text-align: end;
-color: rgb(141, 7, 7);
-/* font-size: 50px; */
 
 .relative {
     position: relative;
@@ -238,7 +227,7 @@ color: rgb(141, 7, 7);
     bottom: 200px;
     left: 400px;
     width: 100%;
-    /* flex-flow: wrap; */
+
 }
 
 
@@ -278,9 +267,9 @@ color: rgb(141, 7, 7);
     display: flex;
     gap: 60px;
     width: 100%;
-    /* position: relative; */
-    /* bottom: 185px; */
-    /* left: 550px; */
+
+
+
 }
 
 
@@ -289,9 +278,9 @@ color: rgb(141, 7, 7);
     display: flex;
     gap: 60px;
     position: relative;
-    /* bottom: 185px; */
-    /* left: 550px; */
-    /* flex-flow: wrap; */
+
+
+
 
 
 
@@ -351,12 +340,6 @@ color: rgb(141, 7, 7);
     color: white;
 
 }
-
-
-
-.banner1 {}
-
-
 .parent-progess-bar {
 
     background-image: url(imge/img/demon-slayer-icegif-12.gif);
@@ -364,7 +347,6 @@ color: rgb(141, 7, 7);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    /* align-items: center; */
     display: flex;
     object-fit: cover;
     position: relative;
@@ -385,10 +367,6 @@ color: rgb(141, 7, 7);
 
     color: white;
     font-family: lato;
-
-    /* position: absolute; */
-    /* top: 100px; */
-    /* left: 20px; */
     font-size: 25px;
     text-align: left;
     position: relative;
@@ -422,172 +400,40 @@ color: rgb(141, 7, 7);
 
 }
 
-/* .overlay2 h2 {
-    font-family: go;
-    color: white;
-
-
-
-
-
-}
-
-.overlay2 h4 {
-    font-family: Doctor;
-    color: white;
-    position: absolute;
-    top: 1px;
-    left: 20px;
-
-}
-
-.overlay3 {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    font-family: Doctor;
-
-
-
-}
-
-.overlay h2 {
-
-    position: relative;
-    top: 100px;
-    left: 100px;
-
-}
-
-.overlay4 {
-    position: absolute;
-    top: 110px;
-    left: 80px;
-
-
-}
-
-.overlay5 {
-    position: absolute;
-    top: 180px;
-    left: 80px;
-
-
-}
-
-.overlay6 {
-    position: absolute;
-    top: 250px;
-    left: 80px;
-
-
-}
-
-.overlay7 {
-    position: absolute;
-    top: 320px;
-    left: 80px;
-
-
-}
-
-.Doctor h2 {
-    font-family: Doctor;
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    font-family: ;
-
-}
-
-.overlay11 {
-    position: absolute;
-    top: 110px;
-    left: 500px;
-}
-
-
-
-.overlay8 {
-    position: absolute;
-    top: 180px;
-    left: 500px;
-}
-
-
-.overlay9 {
-    position: absolute;
-    top: 250px;
-    left: 500px;
-}
-
-
-.overlay10 {
-    position: absolute;
-    top: 320px;
-    left: 500px;
-
-
-} */
-
-/* .parrent3 {
-
-    background-color: rgb(0, 0, 0);
-    height: 440px;
-    width: 5px;
-    /* vertical-align: top;s */
-position: absolute;
-top: 1202px;
-left: 934px;
-transform: rotate(90Deg);
-border-radius: 15px;
-
-
-
-
-/* } */
-
 
 
 
 
 .parrent3child {
 
-    background-color:
-        rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     height: 90%;
     width: 5px;
     border-radius: 15px;
 
 
-    /* size: 50px; */
-    /* vertical-align: top;s */
+
+
     position: absolute;
-    top: 45px;
-    /* bottom: 2px; */
-    /* right: 2000px; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* transform: rotate(90Deg); */
+    
+
 }
 
 */ .progess-bar-parent {
     display: flex;
-
     height: 600px;
     width: 600px;
     position: relative;
-    /* justify-content: right; */
+
 
 }
 
 .parrent3 {
-    /* background-color: rgb(255, 0, 0); */
+
     background-color: rgb(255, 0, 0);
     height: 5px;
     width: 40%;
     border-radius: 15em;
-    /* display: flex; */
     position: absolute;
     top: 150px;
     left: 700px;
@@ -631,7 +477,6 @@ border-radius: 15px;
     width: 40%;
     border-radius: 15em;
     position: absolute;
-    /* bottom: 50px; */
     top: 230px;
     left: 700px;
 
@@ -652,7 +497,6 @@ border-radius: 15px;
     width: 40%;
     border-radius: 15em;
     position: absolute;
-    /* bottom: 50px; */
     top: 309px;
     left: 700px;
 
@@ -673,7 +517,6 @@ border-radius: 15px;
     width: 40%;
     border-radius: 15em;
     position: absolute;
-    /* bottom: 50px; */
     top: 386px;
     left: 700px;
 
@@ -706,13 +549,6 @@ border-radius: 15px;
     -webkit-background-clip: text;
 }
 
-/* 
-.banner3 {
-    position: relative;
-    margin: 25px;
-    
-    width: 100%;
-} */
 .overlay-contenar {
     width: 100%;
     position: relative;
@@ -753,7 +589,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .overlay17 {
@@ -769,7 +605,7 @@ border-radius: 15px;
     position: absolute;
     top: 40px;
     left: 475px;
-    /* display: flex; */
+
 }
 
 .overlay17 h3 {
@@ -785,7 +621,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .overlay19 {
@@ -801,7 +637,7 @@ border-radius: 15px;
     position: absolute;
     top: 40px;
     left: 850px;
-    /* display: flex; */
+
 }
 
 .overlay19 h3 {
@@ -818,7 +654,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .overlay21 {
@@ -834,7 +670,7 @@ border-radius: 15px;
     position: absolute;
     top: 520px;
     left: 100px;
-    /* display: flex; */
+
 }
 
 .overlay21 h3 {
@@ -851,7 +687,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .overlay23 {
@@ -867,7 +703,7 @@ border-radius: 15px;
     position: absolute;
     top: 520px;
     left: 475px;
-    /* display: flex; */
+
 }
 
 .overlay23 h3 {
@@ -884,7 +720,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .overlay25 {
@@ -900,7 +736,7 @@ border-radius: 15px;
     position: absolute;
     top: 520px;
     left: 850px;
-    /* display: flex; */
+
 }
 
 .overlay25 h3 {
@@ -917,7 +753,7 @@ border-radius: 15px;
     position: absolute;
     text-align: center;
     overflow: hidden;
-    /* top: 100px; */
+
 }
 
 .banner4 {
@@ -962,15 +798,6 @@ border-radius: 15px;
     font-size: 40px;
 }
 
-/* .overlay27 :hover{  */
-/* position: absolute; */
-
-/* top: 198px; */
-/* height: 300px; */
-/* width: 60px; */
-/* display: flex; */
-/* left: 50px; */
-/* background-color: rgba(0, 0, 0, 0.45); */
 
 
 .banner5 {
@@ -981,22 +808,14 @@ border-radius: 15px;
 }
 
 .div45 {
-    /* display: inline; */
     width: 100%;
     height: auto;
 
-
-
-
-    /* opacity: 0; */
 }
 
 .div45 {
     position: absolute;
     top: 1300px;
-    /* transition: 1s ease; */
-    /* background-color: #008cba; */
-    /* -webkit-background-clip: border-box; */
 }
 
 .imgtext1 {
@@ -1011,8 +830,8 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
+
+
     opacity: 0;
     transition: 1s ease;
 
@@ -1043,7 +862,6 @@ border-radius: 15px;
     position: absolute;
     top: 198px;
     left: 475px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 
@@ -1061,8 +879,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1093,7 +909,6 @@ border-radius: 15px;
     position: absolute;
     top: 198px;
     left: 900px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1110,8 +925,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1142,7 +955,6 @@ border-radius: 15px;
 }
 
 .heading3 h4 {
-    /* font-family: Doctor; */
     position: absolute;
     top: 1180px;
     left: 45px;
@@ -1167,7 +979,6 @@ border-radius: 15px;
     position: absolute;
     top: 1350px;
     left: 50px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1184,8 +995,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1225,7 +1034,6 @@ border-radius: 15px;
     position: absolute;
     top: 1350px;
     left: 480px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1242,8 +1050,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1282,7 +1088,6 @@ border-radius: 15px;
     position: absolute;
     top: 1350px;
     left: 900px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1299,8 +1104,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1339,7 +1142,6 @@ border-radius: 15px;
     position: absolute;
     top: 1730px;
     left: 50px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
     rotate: 90deg;
@@ -1357,8 +1159,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1397,7 +1197,6 @@ border-radius: 15px;
     position: absolute;
     top: 1730px;
     left: 480px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1414,8 +1213,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1454,7 +1251,6 @@ border-radius: 15px;
     position: absolute;
     top: 1730px;
     left: 900px;
-    /* transition: 1s ease; */
     height: 300px;
     width: 300px;
 }
@@ -1471,8 +1267,6 @@ border-radius: 15px;
     width: 300px;
     text-align: center;
     justify-content: center;
-    /* display: flex; */
-    /* align-items: center; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -1539,92 +1333,7 @@ border-radius: 15px;
     font-size: 25px;
 }
 
-/* .overlay31 img{
-                height: 150px;
-                width: 250px;
-                position: absolute;
-                top: 190px;
-                left: 47px;
-                transition: 1s ease;
-                display: flex;
-                
-                
-            
 
-            }
-            .overlay31:hover img{
-
-                /* height: 160px; */
-/* width: 260px; */
-transform: scale(1.1, 1.1);
-}
-
-/* .heading7{ */
-position: absolute;
-top: 100px;
-
-
-background-color:rgba(255, 255, 255, 0.95);
-height: 300px;
-width: 250px;
-position: absolute;
-top: 340px;
-left: 47px;
-/* text-align: center; */
-justify-content: flex-start;
-align-items: center;
-}
-
-/* .heading7 h5{ */
-position: absolute;
-top: 1px;
-left: 25px;
-font-family: rihan;
-font-size: 20px;
-letter-spacing: 5px;
-}
-
-/* .heading7 h3{ */
-
-position: absolute;
-top: 40px;
-left: 25px;
-font-family: go;
-
-}
-
-/* .heading7 span{ */
-
-position: absolute;
-top: 100px;
-left: 2px;
-font-size: 20px;
-font-family: rihan;
-text-align: center;
-font-size: 20px;
-}
-
-/* .parrent40{ */
-display: flex;
-
-/* border: 2px solid black; */
-/* height: 450px; */
-/* width: 250px; */
-/* position: absolute; */
-/* top: 190px; */
-/* left: 47px; */
-
-}
-
-/* .overlay31 { */
-border: 2px solid black;
-height: 250px;
-width: 250px;
-align-items: center;
-justify-content: center;
-display: flex;
-po
-}
 
 */ .papprets-div {
     display: flex;
@@ -1636,14 +1345,6 @@ po
 
 .overlay3 {
     border: 2px solid rgb(0, 0, 0);
-    /* display: flex; */
-    /* height: 250px; */
-    /* width: 300px; */
-    /* display: flex; */
-    /* justify-content: center; */
-
-
-
 }
 
 .parrent40 {
@@ -1661,12 +1362,8 @@ po
 
     border: 2px solid black;
     width: 260px;
-
-    /* display: flex; */
     justify-content: center;
     overflow: hidden;
-    /* position: absolute; */
-    /* top: 1100px;  */
     height: 500px;
     background-color: white;
 
@@ -1681,8 +1378,6 @@ po
     height: 250px;
     position: relative;
     right: 100px;
-
-    /* overflow: hidden; */
     transition: 1s ease;
 
 }
@@ -1727,12 +1422,8 @@ po
 
     border: 2px solid black;
     width: 260px;
-
-    /* display: flex; */
     justify-content: center;
     overflow: hidden;
-    /* position: absolute; */
-    /* top: 1100px;  */
     height: 500px;
     background-color: white;
 
@@ -1746,15 +1437,8 @@ po
 
     height: 260px;
     width: 260px;
-    /* position: relative; */
-    /* right: 40px;  */
-
-
-
-    /* overflow: hidden; */
     transition: 1s ease;
     rotate: 270Deg;
-    /* object-fit: cover; */
 
 }
 
@@ -1798,12 +1482,8 @@ po
 
     border: 2px solid black;
     width: 260px;
-
-    /* display: flex; */
     justify-content: center;
     overflow: hidden;
-    /* position: absolute; */
-    /* top: 1100px;  */
     height: 500px;
     background-color: rgb(255, 255, 255);
 
@@ -1817,11 +1497,6 @@ po
 
     height: 250px;
     width: 260px;
-    /* position: relative; */
-
-
-
-    /* overflow: hidden; */
     transition: 1s ease;
 
 }
@@ -1867,33 +1542,16 @@ po
     background-image: url(imge/GIFS/222855.gif);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-size: contain; */
-
-
     position: relative;
     top: 46.3px;
-    /* right: 50px; */
     width: 200%;
     margin-right: 14px;
-
-
-
-
-
-
-    /* position: relative; */
-    /* top:70px */
-
 }
 
 .parrent-form {
 
     display: flex;
-
-    margin: 90px;
-    90px,
-    0px,
-    0px;
+     margin: 90px;
     position: relative;
 
 
@@ -1926,20 +1584,11 @@ po
     background: transparent;
     color: white;
     font-size: 18px;
-
-
-
-
-
-    /* justify-content: space-around; */
     border: none;
     border-bottom: 1px solid #ffffff;
     width: 189px;
-
-    /* gap: 100px; */
     padding-bottom: 14px;
     margin-bottom: 50px;
-    /* line-height: 32px; */
     margin-right: 50px;
     outline: none;
 
@@ -1967,14 +1616,8 @@ po
     color: rgb(255, 255, 255);
     font-family: go;
     font-size: 19px;
-    /* -webkit-text-stroke: 5px solid  ; */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-    /* background: linear-gradient(to right white,red;) */
-    /* -webkit-text-fill-color: transparent; */
-    /* -webkit-background-clip: text; */
-
-
 }
 
 .child-form textarea {
@@ -1982,10 +1625,7 @@ po
     height: 150px;
     width: 50%;
     box-sizing: border-box;
-    /* border-radius: 4px; */
-    /* resize: none; */
     font-size: 16px;
-
     background: transparent;
     outline: none;
     margin-bottom: 20px;
@@ -2000,24 +1640,6 @@ po
 
 
 }
-
-/* .child-form textarea:hover{ */
-background-color: black;
-
-/* } */
-
-
-
-/* .child-form p{  */
-/* background: linear-gradient(to right white,red;) */
-/* -webkit-text-fill-color: transparent; */
-/* -webkit-background-clip: text; */
-/* -webkit-text-stroke: 5px solid black; */
-
-
-/* } */
-
-
 
 .child-text3 pre {
     color: #ffffff;
@@ -2045,7 +1667,6 @@ background-color: black;
     font-family: rihan;
     font-size: 25px;
     letter-spacing: 18px;
-    /* text-shadow: #ffffff 10px; */
 }
 
 .child-text3 h2 {
@@ -2073,7 +1694,6 @@ background-color: black;
 
 .parent-footer {
     display: block;
-    /* display: flex;≈ */
 
 
 }
@@ -2096,7 +1716,6 @@ background-color: black;
 .banner7 h3 {
     position: absolute;
     left: 250px;
-    /* top: 0px; */
     font-family: rihan;
     font-size: 25px;
 
