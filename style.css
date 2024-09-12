@@ -1465,7 +1465,7 @@ color: rgb(141, 7, 7);}
     overflow: hidden;
     /* position: relative; */
     /* top: 1500px; */
-    gap: 50px;
+    gap: 5px;
     flex-flow: wrap;
     background-color: gray;
     padding-top: 150px;
@@ -1819,24 +1819,25 @@ color: rgb(141, 7, 7);}
 
 }
 
-.banner7 {
+.footer {
 
-    background-color: gray;
-    height: 200px;
+    background-color: skyblue;
     width: 100%;
+    height: 200px;
+    position: fixed;
     position: relative;
-    /* bottom: 3px; */
-    /* right: 7px; */
     display: flex;
+    justify-content: space-around;
     justify-content: center;
-    align-items: center;
+    place-items: center;
+
 
 
 }
 
 .banner7 h3 {
     position: absolute;
-    left: 250px;
+    left: 48px;
     font-family: rihan;
     font-size: 25px;
 
@@ -1856,8 +1857,8 @@ color: rgb(141, 7, 7);}
     font-family: rihan;
     font-size: 28px;
     position: absolute;
-    right: 528px;
-    top: 59px;
+    /* right: 528px; */
+    /* top: 59px; */
 }
 
 .banner7 img {
