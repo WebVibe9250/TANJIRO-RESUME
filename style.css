@@ -426,11 +426,9 @@ color: rgb(141, 7, 7);}
 }
 .progess-bar-parent {
     /* display: flex; */
-    position: relative;
-    /* margin-top: 150px; */
-    /* margin-left: 150px; */
-    top: 150px;
-    left: 100px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 750px;
 }
 .parrent3 {
     /* background-color: rgb(255, 0, 0); */
@@ -1508,7 +1506,7 @@ color: rgb(141, 7, 7);}
 
     height: 250px;
     position: relative;
-    right: 100px;
+    right: 0px;
     transition: 1s ease;
 
 }
