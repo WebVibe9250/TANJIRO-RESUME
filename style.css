@@ -224,7 +224,7 @@ color: rgb(141, 7, 7);}
 .child2 img {
     height: 400px;
     width: 300px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .parent11 {
@@ -278,6 +278,10 @@ color: rgb(141, 7, 7);}
 
 
 }
+.about-me{
+
+    margin-bottom: 55px;
+}
 
 
 
@@ -290,7 +294,10 @@ color: rgb(141, 7, 7);}
     /* position: relative; */
     align-items: end;
     position: relative;
+    top: 25px;
     right: 400px;
+    margin-bottom: 10px;
+    
   
     
 
