@@ -170,6 +170,9 @@
 
 }
 
+/* .text { */
+color: rgb(141, 7, 7);} 
+
 
 
 .relative {
@@ -212,9 +215,11 @@
     display: flex;
     gap: 70px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
+
 
 }
+
 
 .child2 img {
     height: 400px;
@@ -233,9 +238,10 @@
     justify-content: center;
     /* place-items: center; */
     /* text-align: center; */
-    position: relative;
-    bottom: 190px;
-    margin-left: 150px;
+    /* position: relative; */
+    /* bottom: 190px; */
+    /* margin-left: 150px; */
+    margin-bottom: 5px;
 
     
     
@@ -274,22 +280,19 @@
 }
 
 
-.button-parent {
 
-    display: flex;
-    gap: 60px;
-    width: 100%;
-
-
-
-}
 
 
 .button-parent {
 
     display: flex;
-    gap: 60px;
+    gap: 160px;
+    /* position: relative; */
+    align-items: end;
     position: relative;
+    right: 400px;
+  
+    
 
 
 
@@ -308,9 +311,10 @@
     height: 50px;
     width: 100px;
     position: absolute;
-    bottom: 140px;
+    /* bottom: 140px; */
+    
 
-    left: 600px;
+    /* left: 60px; */
     font-family: BEYNO Regular;
     font-size: 14px;
 
@@ -339,8 +343,8 @@
     height: 50px;
     width: 100px;
     position: absolute;
-    bottom: 140px;
-    right: 400px;
+    /* bottom: 140px; */
+    /* right: 400px; */
     font-family: BEYNO Regular;
     font-size: 10px;
 
