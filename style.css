@@ -429,8 +429,12 @@ color: rgb(141, 7, 7);}
     position: absolute;
     /* margin-top: 150px;
      */
-     top: 150px;
-    margin-left:  680px;
+     /* top: 150px; */
+    /* margin-left:  680px; */
+
+    left: 60%;
+    top: 35%;
+    transform: (-50% -50%);
 }
 .parrent3 {
     /* background-color: rgb(255, 0, 0); */
