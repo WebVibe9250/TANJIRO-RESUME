@@ -411,10 +411,11 @@ color: rgb(141, 7, 7);}
 
 
 }
-.overlay2{
-    position: relative;
-    left: 750px;
-    bottom: 300px;
+.overlay50{
+    /* position: relative; */
+    /* left: 750px; */
+    /* bottom: 300px; */
+    display: flex;
 }
 
 .progess-bar-parent span{
@@ -423,12 +424,17 @@ color: rgb(141, 7, 7);}
     color: #ffffff;
     word-spacing: 210px;
 }
-
+.progess-bar-parent {
+    /* display: flex; */
+    position: relative;
+    top: 150px;
+    left: 50px;
+}
 .parrent3 {
     /* background-color: rgb(255, 0, 0); */
     background-color: rgb(255, 0, 0);
     height: 5px;
-    width: 22.5%;
+    width: 90%;
     border-radius: 15em;
     
     position: absolute;
@@ -442,7 +448,7 @@ color: rgb(141, 7, 7);}
 .parrent3child {
     background-color: rgb(255, 255, 255);
     height: 5px;
-    width: 25%;
+    width: 100%;
     border-radius: 15em;
     /* position: absolute; */
     /* display: flex; */
@@ -456,7 +462,7 @@ color: rgb(141, 7, 7);}
     /* background-color: rgb(255, 0, 0); */
     background-color: rgb(255, 0, 0);
     height: 5px;
-    width: 20%;
+    width: 80%;
     border-radius: 15em;
     
     position: absolute;
@@ -470,7 +476,7 @@ color: rgb(141, 7, 7);}
 .parrent4child {
     background-color: rgb(255, 255, 255);
     height: 5px;
-    width: 25%;
+    width: 100%;
     border-radius: 15em;
     /* position: absolute; */
     /* display: flex; */
@@ -483,7 +489,7 @@ color: rgb(141, 7, 7);}
     /* background-color: rgb(255, 0, 0); */
     background-color: rgb(255, 0, 0);
     height: 5px;
-    width: 23.75%;
+    width: 95%;
     border-radius: 15em;
     
     position: absolute;
@@ -497,7 +503,7 @@ color: rgb(141, 7, 7);}
 .parrent5child {
     background-color: rgb(255, 255, 255);
     height: 5px;
-    width: 25%;
+    width: 100%;
     border-radius: 15em;
     /* position: absolute; */
     /* display: flex; */
@@ -510,7 +516,7 @@ color: rgb(141, 7, 7);}
     /* background-color: rgb(255, 0, 0); */
     background-color: rgb(255, 0, 0);
     height: 5px;
-    width: 21.25%;
+    width: 85%;
     border-radius: 15em;
     
     position: absolute;
@@ -524,7 +530,7 @@ color: rgb(141, 7, 7);}
 .parrent6child {
     background-color: rgb(255, 255, 255);
     height: 5px;
-    width: 25%;
+    width: 100%;
     border-radius: 15em;
     /* position: absolute; */
     /* display: flex; */
@@ -539,91 +545,8 @@ color: rgb(141, 7, 7);}
 
 
 
-/* 
- */
 
 
-
-
-
-
-
-/* .progess-bar-parent {
-    /* gap: 90px; */
-    font-size: 15px;
-    font-family: urban;
-/* }
-
-.progess-bar-parent p {
-
-    position: relative;
-    top: 63px;
-    left: 545px;
-    color: #ffffff;
-} */
-
-
-
-/* 
-.progess-bar-parent .parrent4 {
-    background-color: rgb(255, 0, 0);
-    height: 5px;
-    width: 40%;
-    border-radius: 15em;
-    position: absolute;
-    top: 230px;
-    left: 700px;
-
-}
-
-.progess-bar-parent .parrent4child {
-    background-color: rgb(255, 255, 255);
-    height: 5px;
-    width: 80%;
-    border-radius: 15em;
-
-
-}
-
-.progess-bar-parent .parrent5 {
-    background-color: rgb(255, 0, 0);
-    height: 5px;
-    width: 40%;
-    border-radius: 15em;
-    position: absolute;
-    top: 309px;
-    left: 700px;
-
-}
-
-.progess-bar-parent .parrent5child {
-    background-color: rgb(255, 255, 255);
-    height: 5px;
-    width: 95%;
-    border-radius: 15em;
-
-
-}
-
-.progess-bar-parent .parrent6 {
-    background-color: rgb(255, 0, 0);
-    height: 5px;
-    width: 40%;
-    border-radius: 15em;
-    position: absolute;
-    top: 386px;
-    left: 700px;
-
-}
-
-.progess-bar-parent .parrent6child {
-    background-color: rgb(255, 255, 255);
-    height: 5px;
-    width: 85%;
-    border-radius: 15em;
-
-
-} */
 
 
 
@@ -643,7 +566,6 @@ color: rgb(141, 7, 7);}
     -webkit-background-clip: text;
     margin-left: 48px;
 }
-
 
 .overlay-container{
 
