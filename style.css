@@ -267,7 +267,7 @@ color: rgb(141, 7, 7);}
 
 }
 
-.child3 pre{
+.child3 p{
 
 
     font-family: lato;
@@ -275,8 +275,8 @@ color: rgb(141, 7, 7);}
     -webkit-text-stroke: #000000;
     text-align: justify;
     /* text-align: left; */
-    position: relative;
-    right: 80px;
+    /* position: relative; */
+    /* right: 80px; */
     
 
 
@@ -298,9 +298,9 @@ color: rgb(141, 7, 7);}
     gap: 160px;
     /* position: relative; */
     align-items: end;
-    position: relative;
-    top: 25px;
-    right: 400px;
+    /* position: relative; */
+    /* top: 25px; */
+    /* right: 400px; */
     margin-bottom: 10px;
     
   
