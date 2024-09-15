@@ -170,8 +170,6 @@
 
 }
 
-/* .text { */
-color: rgb(141, 7, 7);} 
 
 
 .relative {
@@ -214,22 +212,33 @@ color: rgb(141, 7, 7);}
     display: flex;
     gap: 70px;
     width: 100%;
+    position: relative;
 
 }
 
 .child2 img {
     height: 400px;
     width: 300px;
+    margin-left: 50px;
 }
 
 .parent11 {
 
     display: flex;
-    gap: 100px;
+    gap: 50px;
+    /* position: relative; */
+    /* bottom: 200px; */
+    /* left: 400px; */
+    /* width: 100%; */
+    justify-content: center;
+    /* place-items: center; */
+    /* text-align: center; */
     position: relative;
-    bottom: 200px;
-    left: 400px;
-    width: 100%;
+    bottom: 190px;
+    margin-left: 150px;
+
+    
+    
 
 }
 
