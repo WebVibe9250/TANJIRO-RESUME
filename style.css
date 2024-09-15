@@ -273,7 +273,7 @@ color: rgb(141, 7, 7);}
     font-family: lato;
     font-size: 20px;
     -webkit-text-stroke: #000000;
-    text-align: justify;
+    /* text-align: justify; */
     /* text-align: left; */
     /* position: relative; */
     /* right: 80px; */
