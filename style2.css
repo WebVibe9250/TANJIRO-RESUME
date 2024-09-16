@@ -267,5 +267,8 @@
         -webkit-text-stroke-color: #ffffff;
 
     }
+    .child-text3{
+        width: 100%;
+    }
 
 }
