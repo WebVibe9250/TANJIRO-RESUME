@@ -474,7 +474,7 @@ color: rgb(141, 7, 7);}
     
     position: absolute;
     /* bottom: 207px; */
-    /* left: 700px; */
+    /* left: 700px; */              
     
    
 
@@ -606,8 +606,9 @@ color: rgb(141, 7, 7);}
 
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     text-align: center;
+    gap: 30px;
 
     
     
