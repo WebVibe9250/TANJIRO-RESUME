@@ -1,67 +1,76 @@
+@media screen and (max-width: 600px) {
 
 
-@media screen and (max-width: 600px){
-
-
-    .parent9{
+    .parent9 {
 
         width: 100%;
         height: 600px;
         background-position: center;
         justify-content: center;
     }
-    .adam{
 
-    justify-content: center;
-    display: flex;
+    .adam {
+
+        justify-content: center;
+        display: flex;
 
     }
-    .overlay{
+
+    .overlay {
         height: 600px;
 
     }
-    .child{
-             justify-content: center;
-             position: absolute;
-             top: 250px;
-             left: 0px;
+
+    .child {
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 0px;
     }
-    .text6 h4{
+
+    .text6 h4 {
         text-align: center;
         font-size: 15px;
 
     }
-    .text6 h2{
+
+    .text6 h2 {
         text-align: center;
         font-size: 25px;
     }
-    .parent10{
+
+    .parent10 {
         flex-direction: column;
     }
-    .child2 img{
+
+    .child2 img {
         height: 400px;
         width: 400px;
-    
+
     }
 
-    html body{
+    html body {
         max-width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-        
-        
+        box-sizing: border-box;
+
+
         overflow-x: hidden;
     }
-    .child3{
+
+    .child3 {
         text-align: center;
     }
-    .child3 p{
+
+    .child3 p {
         text-align: justify;
 
 
     }
-    .parent11{
+
+    .parent11 {
         flex-direction: column;
         gap: 0px;
         /* position: relative; */
@@ -71,39 +80,181 @@
         font-size: 20px;
         text-align: justify;
     }
-    .button-parent{
+
+    .button-parent {
 
         gap: 160px;
         position: relative;
-right: 0px;
-margin-left: 5px;
+        right: 0px;
+        margin-left: 5px;
     }
-    .button2 button{
+
+    .button2 button {
         position: absolute;
         /* top: 0px; */
         /* left: 0px; */
     }
-    .button1 button{
+
+    .button1 button {
         position: absolute;
         /* top: 0px; */
         /* left: 15px; */
         /* margin-bottom: 5px; */
     }
-    
-    .parent-progess-bar{
+
+    .banner1 video {
+        /* background-image: url(imge/img/demon-slayer-icegif-12.gif); */
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+        display: flex;
+    }
+
+    .parent-progess-bar {
 
         height: 800px;
-        width: 100vmax;
+        width: ;
         object-fit: cover;
         align-items: center;
         flex-direction: column;
-        
 
-        
+
+
+    }
+
+    .overlay50 pre {
+        color: white;
+        font-family: lato;
+        font-size: 18px;
+        /* text-align: left; */
+        position: relative;
+        gn: justify;
+        right: 40px;
+        text-align: justify;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+    }
+
+    .progess-bar-parent {
+        /* display: flex; */
+        position: absolute;
+        /* margin-top: 150px; */
+        /* top: 150px; */
+        /* margin-left: 680px; */
+        left: 5%;
+        top: 58%;
+    }
+
+    .overlay50 h3 {
+        text-align: center;
+    }
+
+    .overlay50 h2 {
+        text-align: center;
+    }
+
+    .overlay50 {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.45);
+        height: 800px;
+        width: 100%;
+        /* display: flex; */
+        background-size: cover;
+    }
+
+    .overlay-container {
+        flex-direction: column;
+    }
+
+    .overlay-container2 {
+        flex-direction: column;
+    }
+
+    .heading2 {
+        text-align: center;
+    }
+
+    .parent-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .heading3 h4 {
+        text-align: center;
+        margin-right: 70px;
+
+    }
+
+    .heading3 h2 {
+        text-align: center;
+        margin-right: 70px;
+
+    }
+
+    .parent-hover {
+        flex-flow: wrap;
+        gap: 50px;
+    }
+
+    .parent-hover2 {
+        flex-flow: wrap;
+        gap: 50px;
+    }
+
+    .parrent40 {
+        gap: 50px;
+    }
+
+    .bg1 img {
+        rotate: 60deg;
+    }
+
+    .bg1 {
+        background-repeat: round;
+        background-size: cover;
+        height: 1300px;
+        width: 100%;
+    }
+
+    .child-form {
+        top: 550px;
+
+    }
+
+    .banner7 img {
+        left: 115px;
+        /* float: right; */
+        width: 40px;
+        top: 38px;
+    }
+
+    .banner7 h3 {
+        position: absolute;
+        left: 16px;
+        top: 96px;
+        font-family: rihan;
+        font-size: 18px;
+    }
+
+    .banner7 h4 {
+        letter-spacing: 15px;
+        font-family: rihan;
+        font-size: 18px;
+        position: absolute;
+        right: 129px;
+        text-align: center;
+        top: 78px;
+    }
+
+    .banner7 h2 {
+        font-size: 30px;
+        text-align: center;
+        top: 38px;
+        left: 149px;
     }
 
 }
-
-
-
-    

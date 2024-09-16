@@ -1106,22 +1106,24 @@ color: rgb(141, 7, 7);}
 
 
 .heading3 h4 {
-    position: absolute;
-    bottom:380px;
-    left: 48px;
+    /* position: absolute; */
+    /* bottom:380px; */
+    /* left: 48px; */
     font-family: rihan;
     font-size: 25px;
     letter-spacing: 8px;
+    margin-left: 48px;
 
 
 }
 
 .heading3 h2 {
     font-family: Doctor;
-    position: absolute;
-    bottom: 350px;
-    left: 45px;
+    /* position: absolute; */
+    /* bottom: 350px; */
+    /* left: 45px; */
     font-size: 25px;
+    margin-left: 48px;
 
 }
 .parent-hover{
