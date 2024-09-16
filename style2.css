@@ -45,7 +45,7 @@
 
     .child2 img {
         height: 400px;
-        width: 400px;
+        width: 100%;
 
     }
 
@@ -226,7 +226,7 @@
     }
 
     .banner7 img {
-        left: 115px;
+        left: 100px;
         /* float: right; */
         width: 40px;
         top: 38px;
