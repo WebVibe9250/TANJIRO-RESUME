@@ -45,7 +45,7 @@
     }
 
     html body{
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
@@ -57,31 +57,53 @@
         text-align: center;
     }
     .child3 p{
-        text-align: center;
+        text-align: justify;
 
 
     }
     .parent11{
         flex-direction: column;
         gap: 0px;
+        /* position: relative; */
+        /* left: 0px; */
+        /* bottom: 30px; */
+        /* font-size: 15px; */
+        font-size: 20px;
+        text-align: justify;
+    }
+    .button-parent{
+
+        gap: 160px;
         position: relative;
-        left: 0px;
-        bottom: 30px;
-        font-size: 15px;
+right: 0px;
+margin-left: 5px;
     }
     .button2 button{
-        position: relative;
-        top: 0px;
-        left: 0px;
+        position: absolute;
+        /* top: 0px; */
+        /* left: 0px; */
     }
     .button1 button{
-        position: relative;
-        top: 0px;
-        left: 15px;
-        margin-bottom: 5px;
+        position: absolute;
+        /* top: 0px; */
+        /* left: 15px; */
+        /* margin-bottom: 5px; */
     }
     
+    .parent-progess-bar{
 
+        height: 800px;
+        width: 100vmax;
+        object-fit: cover;
+        align-items: center;
+        flex-direction: column;
+        
+
+        
+    }
 
 }
+
+
+
     
