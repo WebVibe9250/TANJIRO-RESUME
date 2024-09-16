@@ -606,9 +606,9 @@ color: rgb(141, 7, 7);}
 
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
     text-align: center;
-    gap: 30px;
+    width: 100%;
 
     
     
