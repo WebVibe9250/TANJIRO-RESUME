@@ -54,6 +54,7 @@
 
     .parent10 {
         flex-direction: column;
+        gap: 0px;
     }
 
     .child2 img {
@@ -79,7 +80,7 @@
     }
 
     .child3 p {
-        text-align: justify;
+        text-align: center;
 
 
     }
@@ -112,7 +113,7 @@
     .button1 button {
         position: absolute;
         /* top: 0px; */
-        /* left: 15px; */
+        left: 15px;
         /* margin-bottom: 5px; */
     }
 
@@ -141,15 +142,11 @@
     .overlay50 pre {
         color: white;
         font-family: lato;
-        font-size: 15px;
-        /* text-align: left; */
+        font-size: 16px;
         position: relative;
-        
-        /* right: 0px; */
-        text-align: justify;
-        align-items: center;
-        justify-content: center;
-        /* display: flex; */
+        right: 24px;
+        text-align: center;
+
     }
 
     .progess-bar-parent {
@@ -158,20 +155,20 @@
         /* margin-top: 150px; */
         /* top: 150px; */
         /* margin-left: 680px; */
-        left: 4%;
-        top: 50%;
+        left: 7%;
+        top: 57%;
     }
 
     .overlay50 h3 {
         text-align: center;
         top: 36px;
-        /* margin-left: 0px; */
+        margin-left: 0px;
 
     }
 
     .overlay50 h2 {
         text-align: center;
-        /* margin-left: 0px; */
+        margin-left: 0px;
 
     }
 
@@ -197,6 +194,7 @@
 
     .heading2 {
         text-align: center;
+        margin-left: 0%;
     }
 
     .parent-img {
@@ -208,13 +206,13 @@
 
     .heading3 h4 {
         text-align: center;
-        /* margin-right: 70px; */
+        margin-left: 0;
 
     }
 
     .heading3 h2 {
         text-align: center;
-        /* margin-right: 70px; */
+        margin-left: 0;
 
     }
 
@@ -255,6 +253,7 @@
 
     .child-form {
         top: 485px;
+        left: -32px;
 
     }
 
@@ -278,7 +277,7 @@
         font-family: rihan;
         font-size: 18px;
         position: absolute;
-        right: 129px;
+        right: 96px;
         text-align: center;
         top: 78px;
     }
@@ -294,7 +293,7 @@
     }
     .child-text3 pre{
         font-size: 20px;
-        right: 135px;
+        right: 162px;
         color: rgb(255 255 255);
         -webkit-text-stroke-color: #ffffff;
 
@@ -302,5 +301,38 @@
     .child-text3{
         width: 100%;
     }
+    .text6 h2{
+        margin: 0px;
+    }
+    .text6 h4{
+        margin: 0px;
+        margin-top: 15px;
+    }
+    .banner4 h2{
+        text-align: center;
+    }
+    .banner4 h5{
+        text-align: center;
+    }
+    .heading5 h2{
+        text-align: center;
+    }
+    .heading5 h5{
+        left: 132px;
+    }
+    .heading5 h2{
+        left: 94px;
+    }
+    .child-text3 h5{
+        text-align: center;
+    }
+    .child-text3 h2{
+        left: -3px;
+    }
+    .child-text3 h4{
+        left: -29px;
+
+    }
+
 
 }
