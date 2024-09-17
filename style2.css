@@ -62,16 +62,16 @@
 
     }
 
-    /* .body {
+    .body {
         max-width: 100%;
         height: 100%;
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
 
 
         overflow-x: hidden;
-    } */
+    }
 
     .child3 {
         text-align: center;
@@ -145,7 +145,7 @@
         /* text-align: left; */
         position: relative;
         
-        right: 7px;
+        /* right: 0px; */
         text-align: justify;
         align-items: center;
         justify-content: center;
@@ -158,7 +158,7 @@
         /* margin-top: 150px; */
         /* top: 150px; */
         /* margin-left: 680px; */
-        left: 9%;
+        left: 4%;
         top: 50%;
     }
 
@@ -290,7 +290,7 @@
         left: 149px;
     }
     .Doctor{
-        /* width: 100%; */
+        width: 100%;
     }
     .child-text3 pre{
         font-size: 20px;
