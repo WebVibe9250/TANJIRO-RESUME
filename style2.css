@@ -29,6 +29,7 @@
 
     .overlay {
         height: 600px;
+        width: 110%;
 
     }
 
@@ -37,7 +38,7 @@
         position: absolute;
         top: 250px;
         left: 0px;
-        width: 100%;
+        width: 110%;
     }
 
     .text6 h4 {
@@ -249,7 +250,7 @@
         background-repeat: round;
         background-size: cover;
         height: 1200px;
-        width: 100%;
+        width: 110%;
     }
 
     .child-form {
@@ -299,7 +300,7 @@
 
     }
     .child-text3{
-        width: 100%;
+        width: 110%;
     }
 
 }
