@@ -94,11 +94,11 @@
         
         overflow-x: hidden;
     }
-        /* *{
+        *{
             margin: 0%;
             padding: 0%;
             box-sizing: border-box;
-        } */
+        }
 
         .banner{
             width: 100%;
@@ -216,16 +216,19 @@ color: rgb(141, 7, 7);}
 
     font-family: BEYNO Regular;
     margin-left: 54px;
+    margin-top: 15px;
+
 }
 
 
 
 .parent10 {
     display: flex;
-    gap: 70px;
+    /* gap: 70px; */
     width: 100%;
     flex-flow: wrap;
     /* position: relative; */
+    justify-content: center;
 
 
 }
@@ -253,6 +256,7 @@ color: rgb(141, 7, 7);}
     /* bottom: 190px; */
     /* margin-left: 150px; */
     margin-bottom: 5px;
+    margin-top: 15px;
 
     
     
@@ -288,6 +292,8 @@ color: rgb(141, 7, 7);}
     -webkit-text-stroke: #000000;
     text-align: justify;
     padding: 5px;
+    margin-top: 15px;
+
     
     /* text-align: left; */
     /* position: relative; */
@@ -318,7 +324,7 @@ color: rgb(141, 7, 7);}
     /* right: 400px; */
     margin-bottom: 10px;
     right: 150px;
-    
+    margin-top: 15px;
   
     
 
@@ -421,18 +427,31 @@ color: rgb(141, 7, 7);}
     background-size: cover;
 
 }
-.Doctor{
-flex-flow: wrap;
+.Doctor p{
+width: 100%;
+}
+.overlay-parent{
+    position: absolute;
+    width: 100%;
+    padding: 5px;
+}
+.progess-bar-parent h5{
+    float: right;
+    font-family: lato;
+    color: #ffffff;
+    position: relative;
+    top: 14px;
+
 }
 
-.overlay50 pre {
+.overlay50 p {
 
     color: white;
     font-family: lato;
     font-size: 25px;
-    text-align: left;
-    position: relative;
-    right: 93px;
+    text-align: center;
+    /* position: relative; */
+    /* right: 93px; */
 
 
 }
@@ -445,6 +464,7 @@ flex-flow: wrap;
     margin-left: 35px;
     -webkit-text-stroke: red 1px;
     font-size: 45px;
+    text-align: center;
 }
 
 .overlay50 h3 {
@@ -454,7 +474,8 @@ flex-flow: wrap;
     -webkit-text-stroke: yellowgreen;
     margin-left: 45px;
     position: relative;
-    top: 30px;
+    top: 1px;
+    text-align: center;
 
 
 }
@@ -469,19 +490,21 @@ flex-flow: wrap;
     /* float: right; */
     font-family: lato;
     color: #ffffff;
-    word-spacing: 210px;
+    /* word-spacing: 210px; */
+    line-height: 2;
+    padding: 5px;
 }
 .progess-bar-parent {
     /* display: flex; */
-    position: absolute;
+    /* position: absolute; */
     /* margin-top: 150px;
      */
      /* top: 150px; */
     /* margin-left:  680px; */
 
-    left: 60%;
+    /* left: 60%;
     top: 35%;
-    transform: (-50% -50%);
+    transform: (-50% -50%); */
 }
 .parrent3 {
     /* background-color: rgb(255, 0, 0); */
@@ -1145,6 +1168,7 @@ flex-flow: wrap;
     font-size: 25px;
     letter-spacing: 8px;
     margin-left: 48px;
+    margin-top: 15px;
 
 
 }
@@ -1156,6 +1180,7 @@ flex-flow: wrap;
     /* left: 45px; */
     font-size: 25px;
     margin-left: 48px;
+    margin-bottom: 20px;
 
 }
 .parent-hover{
@@ -1620,7 +1645,7 @@ flex-flow: wrap;
 
 .heading7 h5 {
     position: relative;
-    bottom: 20px;
+    bottom: 0;
     left: 4px;
 
     font-family: rihan;
@@ -1631,7 +1656,7 @@ flex-flow: wrap;
 .heading7 h3 {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-family: go;
 
@@ -1640,7 +1665,7 @@ flex-flow: wrap;
 .heading7 span {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-size: 25px;
     font-family: rihan;
@@ -1680,7 +1705,7 @@ flex-flow: wrap;
 
 .heading8 h5 {
     position: relative;
-    bottom: 20px;
+    bottom: 0;
     left: 4px;
 
     font-family: rihan;
@@ -1691,7 +1716,7 @@ flex-flow: wrap;
 .heading8 h3 {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-family: go;
 
@@ -1700,7 +1725,7 @@ flex-flow: wrap;
 .heading8 span {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-size: 25px;
     font-family: rihan;
@@ -1739,7 +1764,7 @@ flex-flow: wrap;
 
 .heading9 h5 {
     position: relative;
-    bottom: 20px;
+    bottom: 0;
     left: 4px;
 
     font-family: rihan;
@@ -1750,7 +1775,7 @@ flex-flow: wrap;
 .heading9 h3 {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-family: go;
 
@@ -1759,7 +1784,7 @@ flex-flow: wrap;
 .heading9 span {
 
     position: relative;
-    bottom: 45px;
+    bottom: 0;
     left: 4px;
     font-size: 25px;
     font-family: rihan;
@@ -1771,7 +1796,7 @@ flex-flow: wrap;
 .bg1 {
 
     background-image: url(imge/GIFS/222855.gif);
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-size: cover;
     position: relative;
     /* top: 46.3px; */
@@ -1784,7 +1809,7 @@ flex-flow: wrap;
 .parrent-form {
 
     display: flex;
-    margin-left: 48px;
+    margin-left: 8px;
     position: relative;
     margin-bottom: 90px;
     
@@ -1797,13 +1822,14 @@ flex-flow: wrap;
 .child-form h2 {
 
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Doctor;
     -webkit-text-stroke-color: rgb(245, 230, 230);
     -webkit-text-stroke-width: 1px;
     background: linear-gradient(to right, rgb(63, 58, 58), rgb(255, 2, 2));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 22px;
 
 
 
@@ -1812,7 +1838,7 @@ flex-flow: wrap;
 
 .child-form {
     position: absolute;
-    right: 0px;
+    right: -48px;
 }
 
 .child-form input {
@@ -1821,11 +1847,12 @@ flex-flow: wrap;
     font-size: 18px;
     border: none;
     border-bottom: 1px solid #ffffff;
-    width: 189px;
+    width: 150px;
     padding-bottom: 14px;
     margin-bottom: 50px;
     margin-right: 50px;
     outline: none;
+    margin-top: 16px;
 
 
 
@@ -1862,8 +1889,6 @@ flex-flow: wrap;
     box-sizing: border-box;
     font-size: 16px;
     background: transparent;
-    outline: none;
-    margin-bottom: 20px;
     color: rgb(0, 0, 0);
     font-size: 16px;
     font-family: lato;
@@ -1902,16 +1927,17 @@ flex-flow: wrap;
     font-family: rihan;
     font-size: 25px;
     letter-spacing: 18px;
+    margin-top: 22px;
 }
 
 .child-text3 h2 {
 
     color: #000000;
     font-family: Doctor;
-    font-size: 40px;
+    font-size: 30px;
     -webkit-text-stroke: #ffffff 1px;
     position: absolute;
-    top: 45px;
+    top: 52px;
 
 }
 
@@ -1919,13 +1945,13 @@ flex-flow: wrap;
 
     color: white;
     position: absolute;
-    top: 120px;
+    top: 101px;
     font-family: ms;
     background: linear-gradient(to right, rgb(255, 4, 247), rgb(255, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: #ffffff 1px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .parent-footer {
@@ -1954,7 +1980,8 @@ flex-flow: wrap;
 
 .banner7 h3 {
     position: absolute;
-    left: 48px;
+    left: 3px;
+    bottom: 58px;
     font-family: rihan;
     font-size: 25px;
 
@@ -1967,6 +1994,7 @@ flex-flow: wrap;
     top: 10px;
     font-family: urban;
     font-size: 40px;
+    text-align: center;
 }
 
 .banner7 h4 {
@@ -1976,13 +2004,14 @@ flex-flow: wrap;
     position: absolute;
     /* right: 528px; */
     /* top: 59px; */
+    text-align: center;
 }
 
 .banner7 img {
 
 
     position: relative;
-    left: 300px;
+    left: 144px;
     /* float: right; */
 }
 #parnet-conatiner{
@@ -2004,7 +2033,7 @@ flex-flow: wrap;
     -webkit-text-stroke: rgb(255, 0, 0) 1px;
     text-shadow:2px 2px #ffffff;
     text-shadow: rgb(255, 255, 255) 0 0 20px;
-    line-height: 0%;
+    line-height: 6;
     
 }
 .child-black h4{
@@ -2014,8 +2043,8 @@ flex-flow: wrap;
     letter-spacing: 8px;
     color: #ffffff;
     -webkit-text-stroke: rgb(255, 255, 255) 1px;
-    margin: 0%;
     line-height: 0%;
+    margin-top: -54px;
     
     
     
