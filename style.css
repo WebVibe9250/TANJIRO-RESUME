@@ -2070,8 +2070,8 @@ color: rgb(141, 7, 7);
     text-shadow: 2px 2px #ffffff;
     text-shadow: rgb(255, 255, 255) 0 0 20px;
     line-height: 6;
-    font-size: 20px;
-    /* overflow: hidden; */
+    font-size: 25px;
+    overflow: hidden;
 
 }
 
@@ -2097,42 +2097,50 @@ color: rgb(141, 7, 7);
 .links a {
 
     display: block;
-    line-height: 2;
+    line-height: 1.7;
     color: #ffffff;
     font-family: rihan;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
-    }
-    .scroll-container{
-        overflow-y: scroll;
-        scroll-behavior: smooth 5s ease all ;
+}
 
-    }
-    .img-down img{
-        height: 50px;
-        width: 50px;
-        position: relative;
-        top: 519px;
+.scroll-container {
+    overflow-y: scroll;
+    scroll-behavior: smooth 5s ease all;
+
+}
+
+.img-down {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 35px;
+    display: flex;
+    left: 10%;
+    /* align-items: center; */
+    justify-content: center;
+
+}
 
 
 
-        
-    }
-    .img-down{
+.logo-org p{
+        /* height: 250px; */
+        /* width: 200px; */
         position: fixed;
-        display: flex;
-        justify-content: center;
+        /* top: 466px; */
+        /* left: -100px; */
+        bottom: 0px;
+        color: #ffffff;
+        font-size: small;
+        text-align: center;
+        padding: 5px;
+        font-size: 13px;
 
     }
-    .logo-org img{
-        height: 250px;
-        width: 200px;
-        position: absolute;
-        top: 466px;
-        left: -100px;
-    }
-    .logo-org{
-        position: fixed;
-    }
+.logo-org {
+    /* position: fixed; */
+    padding: 2px;
+}
