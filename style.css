@@ -1949,10 +1949,10 @@ color: rgb(141, 7, 7);}
     left: 300px;
     /* float: right; */
 }
-.parnet-conatiner{
+#parnet-conatiner{
     display: flex;
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 .child-black{
   
@@ -1961,7 +1961,8 @@ color: rgb(141, 7, 7);}
     width: 25%;
     height:100%;    
     position: fixed;
-    float: left;
+    /* left: 0; */
+    /* float: left; */
     text-align: center;
     font-family: Doctor;
     -webkit-text-stroke: rgb(255, 0, 0) 1px;
@@ -1990,9 +1991,11 @@ color: rgb(141, 7, 7);}
 }
 .child-main-contain{
     width: 75%;
-    /* position: absolute; */
-    float: right;
+    position: absolute;
+    right: 0;
+    /* float: right; */
     height: auto;
+    
     
 }
 
