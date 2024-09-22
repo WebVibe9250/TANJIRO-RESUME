@@ -224,6 +224,7 @@ color: rgb(141, 7, 7);}
     display: flex;
     gap: 70px;
     width: 100%;
+    flex-flow: wrap;
     /* position: relative; */
 
 
@@ -257,7 +258,9 @@ color: rgb(141, 7, 7);}
     
 
 }
-
+.child3{
+    padding: 10px;
+}
 
 
 
@@ -418,6 +421,9 @@ color: rgb(141, 7, 7);}
     background-size: cover;
 
 }
+.Doctor{
+flex-flow: wrap;
+}
 
 .overlay50 pre {
 
@@ -456,7 +462,7 @@ color: rgb(141, 7, 7);}
     /* position: relative; */
     /* left: 750px; */
     /* bottom: 300px; */
-    display: flex;
+    /* display: flex; */
 }
 
 .progess-bar-parent span{
@@ -930,7 +936,18 @@ color: rgb(141, 7, 7);}
     background-color: gray;
     padding-top: 200px;
     padding-bottom: 150px;
+    flex-flow: wrap;
 }
+.parent-img1{
+    position: relative;
+}
+.parent-img2{
+    position: relative;
+}
+.parent-img3{
+    position: relative;
+}
+
 
 .overlay27 img{
     /* position: absolute; */
@@ -972,7 +989,7 @@ color: rgb(141, 7, 7);}
 .imgtext1 {
 
     position: absolute;
-    top: 200px;
+    top: 0;
     /* right: ;: px; */
     
     color: rgb(255, 0, 0);
@@ -1025,7 +1042,7 @@ color: rgb(141, 7, 7);}
 .imgtext2 {
 
     position: absolute;
-    top: 200px;
+    top: 0;
     /* left: 490px; */
     color: rgb(255, 0, 0);
     font-family: storm;
@@ -1073,7 +1090,7 @@ color: rgb(141, 7, 7);}
 .imgtext3 {
 
     position: absolute;
-    top: 200px;
+    top: 0;
     /* right:40px; */
     color: rgb(255, 0, 0);
     font-family: storm;
@@ -1147,10 +1164,28 @@ color: rgb(141, 7, 7);}
     /* justify-content: center; */
     /* gap: 150px; */
     margin-bottom: 45px;
-    
+    flex-flow: wrap;
     position: relative;
     /* position: relative; */
     
+}
+.parent-hover1{
+    position: relative;
+}
+.parent-hover2{
+    position: relative;
+}
+.parent-hover3{
+    position: relative;
+}
+.parent-hover4{
+    position: relative;
+}
+.parent-hover5{
+    position: relative;
+}
+.parent-hover6{
+    position: relative;
 }
 .imgtext4 {
 
@@ -1315,6 +1350,7 @@ color: rgb(141, 7, 7);}
     /* justify-content: center; */
     /* gap: 150px; */
     position: relative;
+    flex-flow: wrap;
     
 }
 .img8 img {
