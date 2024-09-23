@@ -1017,7 +1017,7 @@ color: rgb(141, 7, 7);
 
     font-family: rihan;
     position: absolute;
-    top: 15px;
+    top: 40px;
     left: 48px;
     font-size: 25px;
     letter-spacing: 6px;
@@ -1601,7 +1601,7 @@ color: rgb(141, 7, 7);
 
 .heading5 h5 {
     position: absolute;
-    top: 1px;
+    top: 25px;
     left: 47px;
     font-family: rihan;
     font-size: 25px;
@@ -2083,7 +2083,7 @@ color: rgb(141, 7, 7);
     color: #ffffff;
     -webkit-text-stroke: rgb(255, 255, 255) 1px;
     line-height: 0%;
-    margin-top: -54px;
+    margin-top: -85px;
     margin-bottom: 29px;
 }
 

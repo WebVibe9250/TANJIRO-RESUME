@@ -1,0 +1,338 @@
+@media screen and (max-width:600px) {
+
+
+    .parent9 {
+
+        width: 100%;
+        height: 600px;
+        background-position: center;
+        justify-content: center;
+    }
+  
+    /* *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    } */
+
+    .overlay {
+        height: 600px;
+        width: 100%;
+    }
+
+    .adam {
+
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .overlay {
+        height: 600px;
+        width: 100%;
+
+    }
+
+    .child {
+        justify-content: center;
+        position: absolute;
+        top: 250px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .text6 h4 {
+        text-align: center;
+        font-size: 15px;
+
+    }
+
+    .text6 h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .parent10 {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .child2 img {
+        height: 400px;
+        width: 100%;
+
+    }
+
+    .body {
+        max-width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+
+
+        overflow-x: hidden;
+    }
+
+    .child3 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .child3 p {
+        text-align: center;
+
+
+    }
+
+    .parent11 {
+        flex-direction: column;
+        gap: 0px;
+        /* position: relative; */
+        /* left: 0px; */
+        /* bottom: 30px; */
+        /* font-size: 15px; */
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .button-parent {
+
+        gap: 160px;
+        position: relative;
+        right: 0px;
+        /* margin-left: 5px; */
+    }
+
+    .button2 button {
+        position: absolute;
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+
+    .button1 button {
+        position: absolute;
+        /* top: 0px; */
+        left: 15px;
+        /* margin-bottom: 5px; */
+    }
+
+    .banner1 video {
+        /* background-image: url(imge/img/demon-slayer-icegif-12.gif); */
+        background-repeat: no-repeat;
+        height: 800px;
+        width: 100%;
+        background-size: cover;
+        object-fit: cover;
+        display: flex;
+    }
+
+    .parent-progess-bar {
+
+        height: 800px;
+        width: 100%;
+        object-fit: cover;
+        align-items: center;
+        flex-direction: column;
+
+
+
+    }
+
+    .overlay50 pre {
+        color: white;
+        font-family: lato;
+        font-size: 15px;
+        position: relative;
+        right: 24px;
+        text-align: center;
+
+    }
+
+    .progess-bar-parent {
+        /* display: flex; */
+        position: absolute;
+        /* margin-top: 150px; */
+        /* top: 150px; */
+        /* margin-left: 680px; */
+        left: 7%;
+        top: 57%;
+    }
+
+    .overlay50 h3 {
+        text-align: center;
+        top: 36px;
+        margin-left: 0px;
+
+    }
+
+    .overlay50 h2 {
+        text-align: center;
+        margin-left: 0px;
+
+    }
+
+    .overlay50 {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.45);
+        height: 800px;
+        width: 100%;
+        /* display: flex; */
+        background-size: cover;
+    }
+
+    .overlay-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .overlay-container2 {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .heading2 {
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    .parent-img {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        width: 100%;
+    }
+
+    .heading3 h4 {
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .heading3 h2 {
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .parent-hover {
+        flex-flow: wrap;
+        gap: 50px;
+        width: 100%;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    
+    }
+
+    .parent-hover2 {
+        flex-flow: wrap;
+        gap: 50px;
+        width: 100%;
+        margin-bottom: 40px;
+        
+    
+
+    }
+
+    .parrent40 {
+        gap: 50px;
+        width: 100%;
+    }
+/* 
+    .bg1 img {
+        rotate: 60deg;
+    } */
+
+    .bg1 {
+        background-repeat: round;
+        background-size: cover;
+        height: 1200px;
+        width: 100%;
+    }
+
+    .child-form {
+        top: 485px;
+        left: -32px;
+
+    }
+
+    .banner7 img {
+        left: 100px;
+        /* float: right; */
+        width: 40px;
+        top: 38px;
+    }
+
+    .banner7 h3 {
+        position: absolute;
+        left: 16px;
+        top: 96px;
+        font-family: rihan;
+        font-size: 18px;
+    }
+
+    .banner7 h4 {
+        letter-spacing: 15px;
+        font-family: rihan;
+        font-size: 18px;
+        position: absolute;
+        right: 96px;
+        text-align: center;
+        top: 78px;
+    }
+
+    .banner7 h2 {
+        font-size: 30px;
+        text-align: center;
+        top: 38px;
+        left: 149px;
+    }
+    .Doctor{
+        width: 100%;
+    }
+    .child-text3 pre{
+        font-size: 20px;
+        right: 162px;
+        color: rgb(255 255 255);
+        -webkit-text-stroke-color: #ffffff;
+
+    }
+    .child-text3{
+        width: 100%;
+    }
+    .text6 h2{
+        margin: 0px;
+    }
+    .text6 h4{
+        margin: 0px;
+        margin-top: 15px;
+    }
+    .banner4 h2{
+        text-align: center;
+    }
+    .banner4 h5{
+        text-align: center;
+    }
+    .heading5 h2{
+        text-align: center;
+    }
+    .heading5 h5{
+        left: 132px;
+    }
+    .heading5 h2{
+        left: 94px;
+    }
+    .child-text3 h5{
+        text-align: center;
+    }
+    .child-text3 h2{
+        left: -3px;
+    }
+    .child-text3 h4{
+        left: -29px;
+
+    }
+
+
+}
